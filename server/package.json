@@ -1,9 +1,9 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
+    "table": "npx sequelize db:migrate:undo:all && npx sequelize db:migrate && npx sequelize db:seed:all --debug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,14 +11,21 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
+    "http": "0.0.1-security",
+    "jsdoc": "^3.6.10",
+    "method-override": "^3.0.0",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.16",
     "react": "^18.0.0",
     "react-bootstrap": "^2.3.0",
-    "sequelize": "^6.19.0"
+    "sequelize": "^6.19.0",
+    "websocket": "^1.0.34",
+    "ws": "^8.7.0"
   },
   "devDependencies": {
     "sequelize-cli": "^6.4.1"
-  }
+  },
+  "description": ""
 }

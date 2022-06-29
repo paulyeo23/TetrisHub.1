@@ -3,27 +3,232 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable("Users", {
-      ID: {
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      Username: {
+      username: {
         allowNull: false,
         unique: true,
         type: Sequelize.STRING,
       },
-      Password: {
+      password: {
         allowNull: false,
         type: Sequelize.STRING,
       },
-      DisplayName: {
+      displayName: {
         allowNull: false,
         type: Sequelize.STRING,
         unique: true,
       },
-      // ... [<OTHER_COLUMNS>]
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
+    await queryInterface.createTable("Permissions", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      name: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.STRING,
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
+    await queryInterface.createTable("Organisations", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      name: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      permissionId: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Permissions",
+          key: "id",
+        },
+      },
+      ownerId: {
+        unique: true,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Users",
+          key: "id",
+        },
+      },
+      shortName: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      youtube: {
+        type: Sequelize.STRING,
+      },
+      website: {
+        type: Sequelize.STRING,
+      },
+      discord: {
+        type: Sequelize.STRING,
+      },
+      facebook: {
+        type: Sequelize.STRING,
+      },
+      twitter: {
+        type: Sequelize.STRING,
+      },
+      description: {
+        type: Sequelize.STRING,
+      },
+      twitch: {
+        type: Sequelize.STRING,
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
+    await queryInterface.createTable("Admins", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      userId: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Users",
+          key: "id",
+        },
+      },
+      permissionId: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Permissions",
+          key: "id",
+        },
+      },
+      orgId: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Organisations",
+          key: "id",
+        },
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
+    await queryInterface.createTable("Series", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      name: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.STRING,
+      },
+      orgId: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Organisations",
+          key: "id",
+        },
+      },
+      permissionId: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Permissions",
+          key: "id",
+        },
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
+    await queryInterface.createTable("Editions", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      name: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      seriesId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Series",
+          key: "id",
+        },
+      },
+      permissionId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Permissions",
+          key: "id",
+        },
+      },
       created_at: {
         type: Sequelize.DATE,
         defaultValue: Sequelize.literal("NOW()"),
@@ -35,73 +240,86 @@ module.exports = {
     });
 
     await queryInterface.createTable("PlayerDetails", {
-      ID: {
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
 
-      UserID: {
+      userId: {
         type: Sequelize.INTEGER,
         allowNull: true,
 
         references: {
           model: "Users",
-          key: "ID",
+          key: "id",
         },
       },
 
-      Photo: {
+      photo: {
+        type: Sequelize.BOOLEAN,
+      },
+
+      firstName: {
         type: Sequelize.STRING,
       },
 
-      FirstName: {
+      lastName: {
         type: Sequelize.STRING,
       },
 
-      LastName: {
-        allowNull: false,
-        type: Sequelize.STRING,
-      },
-
-      Alias: {
+      alias: {
         allowNull: true,
         type: Sequelize.STRING,
         unique: true,
       },
 
-      Birthdate: {
+      birthdate: {
         type: Sequelize.DATE,
       },
 
-      HomeTown: {
+      homeTown: {
         type: Sequelize.STRING,
       },
-      Profile: {
+      profile: {
         type: Sequelize.STRING,
       },
-      Country: {
-        type: Sequelize.STRING(3),
+      country: {
+        type: Sequelize.STRING,
       },
-      State: {
+      state: {
         type: Sequelize.STRING(2),
       },
-      Playstyle: {
+      playstyle: {
         type: Sequelize.STRING,
       },
-      PB: {
+      pb: {
         type: Sequelize.INTEGER,
       },
-      HideName: {
-        type: Sequelize.BOOLEAN,
-        defaultValue: true,
+
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
       },
-      HideFace: {
-        type: Sequelize.BOOLEAN,
-        defaultValue: true,
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
       },
-      // ... [<OTHER_COLUMNS>]
+    });
+
+    await queryInterface.createTable("SeedingMethod", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      name: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.STRING,
+      },
       created_at: {
         type: Sequelize.DATE,
         defaultValue: Sequelize.literal("NOW()"),
@@ -113,68 +331,79 @@ module.exports = {
     });
 
     await queryInterface.createTable("Events", {
-      ID: {
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      Name: {
+      editionId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Events",
+          key: "id",
+        },
+      },
+      permissionId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Permissions",
+          key: "id",
+        },
+      },
+      name: {
         allowNull: false,
         type: Sequelize.STRING,
       },
-      Location: {
+      location: {
         allowNull: true,
         type: Sequelize.STRING,
       },
-      Country: {
+      country: {
         allowNull: true,
         type: Sequelize.STRING,
       },
-      LocalStart: {
+      startDate: {
         type: Sequelize.DATE,
       },
-      Startdate: {
+      endDate: {
         type: Sequelize.DATE,
       },
-      LocalEnd: {
-        type: Sequelize.DATE,
-      },
-      Enddate: {
-        type: Sequelize.DATE,
-      },
-      Timezone: {
+      timezone: {
         type: Sequelize.INTEGER,
       },
-      Ongoing: {
+      ongoing: {
         type: Sequelize.BOOLEAN,
         allowNull: false,
         defaultValue: false,
       },
-      Concluded: {
+      concluded: {
         type: Sequelize.BOOLEAN,
         allowNull: false,
         defaultValue: false,
       },
-      Importance: {
+      importance: {
         type: Sequelize.INTEGER,
         allowNull: false,
         defaultValue: 0,
       },
-      PlayerCount: {
+      playerCount: {
         type: Sequelize.INTEGER,
-        allowNull: false,
       },
-      TournamentStructure: {
+      tournamentStructure: {
         type: Sequelize.STRING,
         allowNull: true,
       },
-      PrizeCash: {
+      seedingMethod: {
+        type: Sequelize.INTEGER,
+      },
+      prizeCash: {
         type: Sequelize.INTEGER,
         allowNull: false,
         defaultValue: 0,
       },
-      PrizeOther: {
+      prizeOther: {
         type: Sequelize.STRING,
         allowNull: true,
       },
@@ -188,95 +417,312 @@ module.exports = {
         defaultValue: Sequelize.literal("NOW()"),
       },
     });
+
+    await queryInterface.createTable("BracketType", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      name: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.STRING,
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
+    await queryInterface.createTable("Brackets", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      bracketStage: {
+        type: Sequelize.INTEGER,
+      },
+      size: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.INTEGER,
+      },
+      eventId: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Events",
+          key: "id",
+        },
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
+    await queryInterface.createTable("Seeders", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      bracketId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: "Brackets",
+          key: "id",
+        },
+      },
+      averageof: {
+        type: Sequelize.INTEGER,
+        defaultValue: 1,
+      },
+      seedingMethod: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      open: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: true,
+      },
+      finalised: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false,
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
+    await queryInterface.createTable("PlayerSeed", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      playerId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: "PlayerDetails",
+          key: "id",
+        },
+      },
+      seedId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Seeders",
+          key: "id",
+        },
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
+    await queryInterface.createTable("QualifyingScores", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      seederId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Seeders",
+          key: "id",
+        },
+      },
+      playerId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: "PlayerDetails",
+          key: "id",
+        },
+      },
+      score: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      pending: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
+        defaultValue: true,
+      },
+      approved: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
+        defaultValue: false,
+      },
+      timestamp: {
+        type: Sequelize.INTEGER,
+      },
+      videoLink: {
+        type: Sequelize.STRING,
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
+    await queryInterface.createTable("BracketMatches", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      bracketId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: "Brackets",
+          key: "id",
+        },
+      },
+      bracketMatchId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      winnerTo: {
+        type: Sequelize.INTEGER,
+      },
+      loserTo: {
+        type: Sequelize.INTEGER,
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
     await queryInterface.createTable("Matches", {
-      ID: {
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
 
-      DateTime: {
+      dateTime: {
         type: Sequelize.DATE,
         allowNull: false,
+        defaultValue: Sequelize.literal("NOW()"),
       },
 
-      Local_Time: {
-        type: Sequelize.DATE,
-        allowNull: false,
-      },
-
-      Timezone: {
+      bestOf: {
         type: Sequelize.INTEGER,
-        allowNull: false,
       },
 
-      BestOf: {
+      player1Id: {
         type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-
-      Player1ID: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
         references: {
           model: "PlayerDetails",
-          key: "ID",
+          key: "id",
         },
       },
-      Player1Score: {
+      player1Score: {
         type: Sequelize.INTEGER,
         defaultValue: 0,
       },
-      Player2ID: {
+      player2Id: {
         type: Sequelize.INTEGER,
-        allowNull: false,
         references: {
           model: "PlayerDetails",
-          key: "ID",
+          key: "id",
         },
       },
-      Player2Score: {
+      player2Score: {
         type: Sequelize.INTEGER,
         defaultValue: 0,
       },
-      WinnerID: {
+      winnerId: {
         type: Sequelize.INTEGER,
-        allowNull: true,
         references: {
           model: "PlayerDetails",
-          key: "ID",
+          key: "id",
         },
       },
-      LoserID: {
+      loserId: {
         type: Sequelize.INTEGER,
-        allowNull: true,
         references: {
           model: "PlayerDetails",
-          key: "ID",
+          key: "id",
         },
       },
-      Version: {
+      version: {
         type: Sequelize.STRING(4),
         allowNull: false,
       },
-      Live: {
+      live: {
         type: Sequelize.BOOLEAN,
         defaultValue: false,
       },
-      Completed: {
+      completed: {
         type: Sequelize.BOOLEAN,
         defaultValue: false,
       },
-      EventID: {
+      bracketId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Brackets",
+          key: "id",
+        },
+      },
+      bracketMatchId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "BracketMatches",
+          key: "id",
+        },
+      },
+      eventId: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
           model: "Events",
-          key: "ID",
+          key: "id",
         },
       },
-      Draw: {
+      draw: {
         type: Sequelize.BOOLEAN,
         defaultValue: false,
       },
@@ -290,88 +736,82 @@ module.exports = {
       },
     });
 
-    await queryInterface.createTable("Game Results", {
-      ID: {
+    await queryInterface.createTable("GameResults", {
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      MatchID: {
+      matchId: {
         type: Sequelize.INTEGER,
         allowNull: false,
 
         references: {
           model: "Matches",
-          key: "ID",
+          key: "id",
         },
       },
-      Round: {
+      round: {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      Player1ID: {
+      player1Id: {
         type: Sequelize.INTEGER,
         references: {
           model: "Matches",
-          key: "Player1ID",
+          key: "player1Id",
         },
         allowNull: false,
       },
-      Player1Score: {
+      player1Score: {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      Player2ID: {
+      player2Id: {
         type: Sequelize.INTEGER,
         references: {
           model: "Matches",
-          key: "Player2ID",
+          key: "player2Id",
         },
         allowNull: false,
       },
-      Player2Score: {
+      player2Score: {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      WinnerID: {
+      player1TetrisRate: {
+        type: Sequelize.INTEGER,
+      },
+      player1LongBarCount: {
+        type: Sequelize.INTEGER,
+      },
+      player2TetrisRate: {
+        type: Sequelize.INTEGER,
+      },
+      player2LongBarCount: {
+        type: Sequelize.INTEGER,
+      },
+      winnerId: {
         type: Sequelize.INTEGER,
         references: {
-          model: "Playerdetails",
-          key: "ID",
+          model: "PlayerDetails",
+          key: "id",
         },
         allowNull: false,
       },
-      WinnerScore: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      WinnerTetrisRate: {
+      winnerTetrisRate: {
         type: Sequelize.INTEGER,
       },
-      WinnerLongBarCount: {
+      winnerLongBarCount: {
         type: Sequelize.INTEGER,
       },
-      LoserID: {
+      loserId: {
         type: Sequelize.INTEGER,
         references: {
-          model: "Playerdetails",
-          key: "ID",
+          model: "PlayerDetails",
+          key: "id",
         },
-        allowNull: false,
-      },
-      LoserScore: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      LoserTetrisRate: {
-        type: Sequelize.INTEGER,
-      },
-      LoserLongBarCount: {
-        type: Sequelize.INTEGER,
-      },
-      ScoreDifference: {
-        type: Sequelize.INTEGER,
         allowNull: false,
       },
       created_at: {
@@ -384,16 +824,22 @@ module.exports = {
       },
     });
     await queryInterface.createTable("Streams", {
-      MatchID: {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      matchId: {
         type: Sequelize.INTEGER,
         allowNull: false,
 
         references: {
           model: "Matches",
-          key: "ID",
+          key: "id",
         },
       },
-      StreamAddress: {
+      streamAddress: {
         type: Sequelize.STRING,
         allowNull: false,
       },
@@ -410,10 +856,29 @@ module.exports = {
 
   down: async (queryInterface, Sequelize) => {
     await queryInterface.dropTable("Streams");
-    await queryInterface.dropTable("Game Results");
+    await queryInterface.dropTable("GameResults");
     await queryInterface.dropTable("Matches");
+    await queryInterface.dropTable("BracketMatches");
+    await queryInterface.dropTable("QualifyingScores");
+    await queryInterface.dropTable("PlayerSeed");
+    await queryInterface.dropTable("Seeders");
+    await queryInterface.dropTable("Brackets");
     await queryInterface.dropTable("Events");
+    await queryInterface.dropTable("Editions");
+    await queryInterface.dropTable("Series");
+    await queryInterface.dropTable("Admins");
+    await queryInterface.dropTable("Organisations");
     await queryInterface.dropTable("PlayerDetails");
+    await queryInterface.dropTable("Permissions");
     await queryInterface.dropTable("Users");
+    await queryInterface.dropTable("SeedingMethod");
+
+    // await queryInterface.dropTable("GameResults");
+    // await queryInterface.dropTable("Matches");
+    // await queryInterface.dropTable("Events");
+    // await queryInterface.dropTable("PlayerDetails");
+    // await queryInterface.dropTable("Admins");
+    // await queryInterface.dropTable("Organisation");
+    // await queryInterface.dropTable("Users");
   },
 };
