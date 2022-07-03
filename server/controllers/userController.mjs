@@ -1,27 +1,21 @@
-export default function initUserController(db) {
-  const Info = () => {
-    return {
-      brackets: db.Brackets.findAll(),
-      edition: db.Edition.findAll(),
-      events: db.Events.findAll(),
-      results: db.GameResults.findAll(),
-      matches: db.Matches.findAll(),
-      organisation: db.Organisation.findAll(),
-      players: db.PlayerDetails.findAll(),
-      qualScore: db.QualifyingScores.findAll(),
-      series: db.Series.findAll(),
-      users: db.Users.findAll(),
-    };
-  };
+import { Info } from "../service/info.mjs";
 
+export default function initUserController(db) {
   const register = async (request, response) => {
+    console.log(request.params);
     db.Users.findAll({
       where: {
         username: request.params.username,
       },
     }).then((result) => {
       if (result.length > 0) {
-        //register
+        response.send({ username: false, accepted: false });
+      } else {
+        db.Users.create({
+          username: request.params.username,
+          password: request.params.password,
+        });
+        response.send({ accepted: true });
       }
     });
   };
@@ -34,16 +28,16 @@ export default function initUserController(db) {
       },
     }).then((result) => {
       if (result.length > 0) {
-        //login
+        response.send({ accepted: true });
       } else {
-        //alert
+        response.send({ accepted: false });
       }
     });
   };
 
   const index = async (request, response) => {
     try {
-      Info().then((result) => response.send(result));
+      Info(db).then((result) => response.send(result));
     } catch (error) {
       console.log(error);
     }
@@ -51,6 +45,7 @@ export default function initUserController(db) {
 
   return {
     index,
-    seatPlayer,
+    register,
+    login,
   };
 }

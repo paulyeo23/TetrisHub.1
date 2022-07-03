@@ -1,6 +1,6 @@
 export default function initEventsModel(sequelize, DataTypes) {
   return sequelize.define(
-    "events",
+    "Events",
     {
       id: {
         allowNull: false,
@@ -14,6 +14,13 @@ export default function initEventsModel(sequelize, DataTypes) {
         type: DataTypes.INTEGER,
         references: {
           model: "Permissions",
+          key: "id",
+        },
+      },
+      versionId: {
+        type: DataTypes.INTEGER,
+        references: {
+          model: "Versions",
           key: "id",
         },
       },

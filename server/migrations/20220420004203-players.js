@@ -7,6 +7,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       username: {
@@ -33,11 +34,35 @@ module.exports = {
       },
     });
 
+    await queryInterface.createTable("Versions", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        unique: true,
+        type: Sequelize.INTEGER,
+      },
+      name: {
+        allowNull: false,
+        unique: true,
+        type: Sequelize.STRING,
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
+
     await queryInterface.createTable("Permissions", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       name: {
@@ -60,6 +85,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       name: {
@@ -123,6 +149,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       userId: {
@@ -143,15 +170,6 @@ module.exports = {
           key: "id",
         },
       },
-      orgId: {
-        allowNull: false,
-        unique: true,
-        type: Sequelize.INTEGER,
-        references: {
-          model: "Organisations",
-          key: "id",
-        },
-      },
       created_at: {
         type: Sequelize.DATE,
         defaultValue: Sequelize.literal("NOW()"),
@@ -167,6 +185,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       name: {
@@ -207,6 +226,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       name: {
@@ -244,6 +264,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
 
@@ -308,11 +329,12 @@ module.exports = {
       },
     });
 
-    await queryInterface.createTable("SeedingMethod", {
+    await queryInterface.createTable("SeedingMethods", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       name: {
@@ -335,6 +357,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       editionId: {
@@ -407,7 +430,13 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: true,
       },
-
+      versionId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Versions",
+          key: "id",
+        },
+      },
       created_at: {
         type: Sequelize.DATE,
         defaultValue: Sequelize.literal("NOW()"),
@@ -418,11 +447,12 @@ module.exports = {
       },
     });
 
-    await queryInterface.createTable("BracketType", {
+    await queryInterface.createTable("BracketTypes", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       name: {
@@ -445,6 +475,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       bracketStage: {
@@ -479,6 +510,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       bracketId: {
@@ -489,6 +521,7 @@ module.exports = {
           key: "id",
         },
       },
+
       averageof: {
         type: Sequelize.INTEGER,
         defaultValue: 1,
@@ -515,13 +548,15 @@ module.exports = {
       },
     });
 
-    await queryInterface.createTable("PlayerSeed", {
+    await queryInterface.createTable("PlayerSeeds", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
+
       playerId: {
         type: Sequelize.INTEGER,
         allowNull: false,
@@ -530,12 +565,15 @@ module.exports = {
           key: "id",
         },
       },
-      seedId: {
+      seederId: {
         type: Sequelize.INTEGER,
         references: {
           model: "Seeders",
           key: "id",
         },
+      },
+      seed: {
+        type: Sequelize.INTEGER,
       },
       created_at: {
         type: Sequelize.DATE,
@@ -552,6 +590,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       seederId: {
@@ -604,6 +643,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       bracketId: {
@@ -639,12 +679,12 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
 
       dateTime: {
         type: Sequelize.DATE,
-        allowNull: false,
         defaultValue: Sequelize.literal("NOW()"),
       },
 
@@ -688,8 +728,13 @@ module.exports = {
           key: "id",
         },
       },
-      version: {
-        type: Sequelize.STRING(4),
+      versionId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Versions",
+          key: "id",
+        },
+        type: Sequelize.INTEGER,
         allowNull: false,
       },
       live: {
@@ -736,98 +781,100 @@ module.exports = {
       },
     });
 
-    await queryInterface.createTable("GameResults", {
-      id: {
-        allowNull: false,
-        autoIncrement: true,
-        primaryKey: true,
-        type: Sequelize.INTEGER,
-      },
-      matchId: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
+    // await queryInterface.createTable("GameResults", {
+    //   id: {
+    //     allowNull: false,
+    //     autoIncrement: true,
+    //     primaryKey: true,
+    //     unique: true,
+    //     type: Sequelize.INTEGER,
+    //   },
+    //   matchId: {
+    //     type: Sequelize.INTEGER,
+    //     allowNull: false,
 
-        references: {
-          model: "Matches",
-          key: "id",
-        },
-      },
-      round: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      player1Id: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: "Matches",
-          key: "player1Id",
-        },
-        allowNull: false,
-      },
-      player1Score: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      player2Id: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: "Matches",
-          key: "player2Id",
-        },
-        allowNull: false,
-      },
-      player2Score: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      player1TetrisRate: {
-        type: Sequelize.INTEGER,
-      },
-      player1LongBarCount: {
-        type: Sequelize.INTEGER,
-      },
-      player2TetrisRate: {
-        type: Sequelize.INTEGER,
-      },
-      player2LongBarCount: {
-        type: Sequelize.INTEGER,
-      },
-      winnerId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: "PlayerDetails",
-          key: "id",
-        },
-        allowNull: false,
-      },
-      winnerTetrisRate: {
-        type: Sequelize.INTEGER,
-      },
-      winnerLongBarCount: {
-        type: Sequelize.INTEGER,
-      },
-      loserId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: "PlayerDetails",
-          key: "id",
-        },
-        allowNull: false,
-      },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
-      },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
-      },
-    });
+    //     references: {
+    //       model: "Matches",
+    //       key: "id",
+    //     },
+    //   },
+    //   round: {
+    //     type: Sequelize.INTEGER,
+    //     allowNull: false,
+    //   },
+    //   player1Id: {
+    //     type: Sequelize.INTEGER,
+    //     references: {
+    //       model: "Matches",
+    //       key: "player1Id",
+    //     },
+    //     allowNull: false,
+    //   },
+    //   player1Score: {
+    //     type: Sequelize.INTEGER,
+    //     allowNull: false,
+    //   },
+    //   player2Id: {
+    //     type: Sequelize.INTEGER,
+    //     references: {
+    //       model: "Matches",
+    //       key: "player2Id",
+    //     },
+    //     allowNull: false,
+    //   },
+    //   player2Score: {
+    //     type: Sequelize.INTEGER,
+    //     allowNull: false,
+    //   },
+    //   player1TetrisRate: {
+    //     type: Sequelize.INTEGER,
+    //   },
+    //   player1LongBarCount: {
+    //     type: Sequelize.INTEGER,
+    //   },
+    //   player2TetrisRate: {
+    //     type: Sequelize.INTEGER,
+    //   },
+    //   player2LongBarCount: {
+    //     type: Sequelize.INTEGER,
+    //   },
+    //   winnerId: {
+    //     type: Sequelize.INTEGER,
+    //     references: {
+    //       model: "PlayerDetails",
+    //       key: "id",
+    //     },
+    //     allowNull: false,
+    //   },
+    //   winnerTetrisRate: {
+    //     type: Sequelize.INTEGER,
+    //   },
+    //   winnerLongBarCount: {
+    //     type: Sequelize.INTEGER,
+    //   },
+    //   loserId: {
+    //     type: Sequelize.INTEGER,
+    //     references: {
+    //       model: "PlayerDetails",
+    //       key: "id",
+    //     },
+    //     allowNull: false,
+    //   },
+    //   created_at: {
+    //     type: Sequelize.DATE,
+    //     defaultValue: Sequelize.literal("NOW()"),
+    //   },
+    //   updated_at: {
+    //     type: Sequelize.DATE,
+    //     defaultValue: Sequelize.literal("NOW()"),
+    //   },
+    // });
     await queryInterface.createTable("Streams", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: Sequelize.INTEGER,
       },
       matchId: {
@@ -860,7 +907,7 @@ module.exports = {
     await queryInterface.dropTable("Matches");
     await queryInterface.dropTable("BracketMatches");
     await queryInterface.dropTable("QualifyingScores");
-    await queryInterface.dropTable("PlayerSeed");
+    await queryInterface.dropTable("PlayerSeeds");
     await queryInterface.dropTable("Seeders");
     await queryInterface.dropTable("Brackets");
     await queryInterface.dropTable("Events");
@@ -871,7 +918,8 @@ module.exports = {
     await queryInterface.dropTable("PlayerDetails");
     await queryInterface.dropTable("Permissions");
     await queryInterface.dropTable("Users");
-    await queryInterface.dropTable("SeedingMethod");
+    await queryInterface.dropTable("SeedingMethods");
+    await queryInterface.dropTable("Versions");
 
     // await queryInterface.dropTable("GameResults");
     // await queryInterface.dropTable("Matches");

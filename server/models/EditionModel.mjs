@@ -1,6 +1,6 @@
 export default function initEditionsModel(sequelize, DataTypes) {
   return sequelize.define(
-    "editions",
+    "Editions",
     {
       id: {
         allowNull: false,

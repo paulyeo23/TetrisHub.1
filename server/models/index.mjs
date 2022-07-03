@@ -18,6 +18,7 @@ import initBracketTypeModel from "./BracketTypeModel.mjs";
 import initSeedingMethodModel from "./SeedingMethodModel.mjs";
 import initSeedModel from "./SeederModel.mjs";
 import initPlayerSeedModel from "./PlayerSeedModel.mjs";
+import initAdminsModel from "./AdminsModel.mjs";
 
 const { Sequelize } = sequelizePackage;
 const env = "development";
@@ -36,7 +37,7 @@ db.Users = initUsersModel(sequelize, Sequelize.DataTypes);
 db.PlayerDetails = initPlayerDetailsModel(sequelize, Sequelize.DataTypes);
 db.Events = initEventsModel(sequelize, Sequelize.DataTypes);
 db.Matches = initMatchesModel(sequelize, Sequelize.DataTypes);
-db.GameResults = initGameResultsModel(sequelize, Sequelize.DataTypes);
+// db.GameResults = initGameResultsModel(sequelize, Sequelize.DataTypes);
 db.Streams = initStreamsModel(sequelize, Sequelize.DataTypes);
 db.QualifyingScores = initQualifyingScoresModel(sequelize, Sequelize.DataTypes);
 db.Permissions = initPermissionsModel(sequelize, Sequelize.DataTypes);
@@ -49,6 +50,7 @@ db.BracketTypes = initBracketTypeModel(sequelize, Sequelize.DataTypes);
 db.SeedingMethod = initSeedingMethodModel(sequelize, Sequelize.DataTypes);
 db.Seeder = initSeedModel(sequelize, Sequelize.DataTypes);
 db.PlayerSeed = initPlayerSeedModel(sequelize, Sequelize.DataTypes);
+db.Admins = initAdminsModel(sequelize, Sequelize.DataTypes);
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

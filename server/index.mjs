@@ -1,7 +1,7 @@
 import cookieParser from "cookie-parser";
 import express from "express";
 import methodOverride from "method-override";
-import bindRoutes from "./routes.mjs";
+import bindRoutes from "./routes/routes.mjs";
 import cors from "cors";
 import { WebSocketServer } from "ws";
 import http from "http";
@@ -18,7 +18,6 @@ app.use(
   }),
 );
 // Set the Express view engine to expect EJS templates
-app.set("view engine", "ejs");
 // Bind cookie parser middleware to parse cookies in requests
 app.use(cookieParser());
 // Bind Express middleware to parse request bodies for POST requests
@@ -36,47 +35,3 @@ bindRoutes(app);
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => console.info(`Server running on port: ${PORT}`));
-
-const webSocketsServerPort = 3002;
-const server = http.createServer();
-server.listen(webSocketsServerPort);
-console.log(`Websocket listening on port ${webSocketsServerPort}`);
-
-const wsServer = new WebSocketServer({
-  server: server,
-});
-
-const getUniqueID = () => {
-  const s4 = () =>
-    Math.floor((1 + Math.random()) * 0x10000)
-      .toString(16)
-      .substring(1);
-  return s4() + s4() + "-" + s4();
-};
-
-wsServer.on("request", function (request) {
-  var userId = getUniqueID();
-  console.log(
-    new Date() +
-      " Recieved a new connection from origin " +
-      request.origin +
-      ".",
-  );
-
-  // You can rewrite this part of the code to accept only the requests from allowed origin
-  const connection = request.accept(null, request.origin);
-  clients[userId] = connection;
-  console.log(`${userId} connected`);
-
-  connection.on("message", function (message) {
-    if (message.type === "utf8") {
-      console.log("Received Message: ", message.utf8Data);
-
-      // broadcasting message to all connected clients
-      // for (key in clients) {
-      //   clients[key].sendUTF(message.utf8Data);
-      //   console.log("sent Message to: ", clients[key]);
-      // }
-    }
-  });
-});

@@ -1,11 +1,11 @@
 module.exports = {
   development: {
-    username: "root",
-    password: "password",
-    database: "tetrishub0.2",
+    username: "postgres",
+    password: "123456ty",
+    database: "tetrishub",
     host: "127.0.0.1",
-    dialect: "mysql",
-    query: { raw: true },
+    dialect: "postgres",
+    // query: { raw: true },
   },
 };
 // development: {

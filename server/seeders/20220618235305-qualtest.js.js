@@ -830,7 +830,7 @@ const players = [
 module.exports = {
   async up(queryInterface, Sequelize) {
     const playerDetails = await queryInterface.sequelize
-      .query(`SELECT * FROM playerDetails;`)
+      .query(`SELECT * FROM "PlayerDetails";`)
       .then(async (results) => {
         const playerList = results[0];
         let insertlist = [];
@@ -861,5 +861,3 @@ module.exports = {
      */
   },
 };
-
-

@@ -4,5123 +4,5123 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.bulkInsert("PlayerDetails", [
       {
-        Alias: "810770",
+        alias: "810770",
         country: "CAN",
       },
       {
-        Alias: "20DAN03",
+        alias: "20DAN03",
         country: "GBR",
       },
       {
-        Alias: "321MRHAATZ",
+        alias: "321MRHAATZ",
         country: "COL",
       },
       {
-        Alias: "3ARRETT",
+        alias: "3ARRETT",
         country: "USA",
       },
       {
-        Alias: "3NT0N",
+        alias: "3NT0N",
         country: "GER",
       },
       {
-        Alias: "3RROR404",
+        alias: "3RROR404",
         country: "DEN",
       },
       {
-        Alias: "666_NOOB",
+        alias: "666_NOOB",
         country: "GBR",
       },
       {
-        Alias: "8888Q",
+        alias: "8888Q",
         country: "USA",
       },
       {
-        Alias: "AARON LEE",
+        alias: "AARON LEE",
         country: "AUS",
       },
       {
-        Alias: "ABACYS",
+        alias: "ABACYS",
         country: "BEL",
       },
       {
-        Alias: "ADAM",
+        alias: "ADAM",
         country: "XXX",
       },
       {
-        Alias: "ADAM CORNELIUS",
+        alias: "ADAM CORNELIUS",
         country: "USA",
       },
       {
-        Alias: "ADDISON",
+        alias: "ADDISON",
         country: "CAN",
       },
       {
-        Alias: "ADIRONDACK",
+        alias: "ADIRONDACK",
         country: "USA",
       },
       {
-        Alias: "ADRENALIN",
+        alias: "ADRENALIN",
         country: "GBR",
       },
       {
-        Alias: "ADUDEABIDES",
+        alias: "ADUDEABIDES",
         country: "USA",
       },
       {
-        Alias: "AFAELR",
+        alias: "AFAELR",
         country: "BRA",
       },
       {
-        Alias: "AGAMESCOUT",
+        alias: "AGAMESCOUT",
         country: "USA",
       },
       {
-        Alias: "AGUSVITTA",
+        alias: "AGUSVITTA",
         country: "ARG",
       },
       {
-        Alias: "AIRETHO",
+        alias: "AIRETHO",
         country: "USA",
       },
       {
-        Alias: "AKAY",
+        alias: "AKAY",
         country: "CAN",
       },
       {
-        Alias: "AKGRANDMASTERB",
+        alias: "AKGRANDMASTERB",
         country: "USA",
       },
       {
-        Alias: "AKIDEEMUS",
+        alias: "AKIDEEMUS",
         country: "FIN",
       },
       {
-        Alias: "AKUMA",
+        alias: "AKUMA",
         country: "GER",
       },
       {
-        Alias: "AL SHAHED",
+        alias: "AL SHAHED",
         country: "AUS",
       },
       {
-        Alias: "ALAN",
+        alias: "ALAN",
         country: "USA",
       },
       {
-        Alias: "ALDEN",
+        alias: "ALDEN",
         country: "USA",
       },
       {
-        Alias: "ALECAT",
+        alias: "ALECAT",
         country: "AUS",
       },
       {
-        Alias: "ALEJODIOS",
+        alias: "ALEJODIOS",
         country: "ARG",
       },
       {
-        Alias: "ALEX (HONG KONG)",
+        alias: "ALEX (HONG KONG)",
         country: "HKG",
       },
       {
-        Alias: "ALEX H",
+        alias: "ALEX H",
         country: "GBR",
       },
       {
-        Alias: "ALEX KERR",
+        alias: "ALEX KERR",
         country: "USA",
       },
       {
-        Alias: "ALEX STROESCU",
+        alias: "ALEX STROESCU",
         country: "ROU",
       },
       {
-        Alias: "ALEX THACH",
+        alias: "ALEX THACH",
         country: "USA",
       },
       {
-        Alias: "ALEXKTETRIS",
+        alias: "ALEXKTETRIS",
         country: "CAN",
       },
       {
-        Alias: "ALFALFA",
+        alias: "ALFALFA",
         country: "COL",
       },
       {
-        Alias: "ALLENBOT",
+        alias: "ALLENBOT",
         country: "SGP",
       },
       {
-        Alias: "ALLY_OK",
+        alias: "ALLY_OK",
         country: "USA",
       },
       {
-        Alias: "ALOHAAXE",
+        alias: "ALOHAAXE",
         country: "USA",
       },
       {
-        Alias: "ALWIN",
+        alias: "ALWIN",
         country: "SUI",
       },
       {
-        Alias: "AMJ",
+        alias: "AMJ",
         country: "USA",
       },
       {
-        Alias: "ANCHIKAI",
+        alias: "ANCHIKAI",
         country: "USA",
       },
       {
-        Alias: "ANDMIND",
+        alias: "ANDMIND",
         country: "ITA",
       },
       {
-        Alias: "ANDRE",
+        alias: "ANDRE",
         country: "GBR",
       },
       {
-        Alias: "ANDREW",
+        alias: "ANDREW",
         country: "AUS",
       },
       {
-        Alias: "ANDREY",
+        alias: "ANDREY",
         country: "BRA",
       },
       {
-        Alias: "ANDREY K",
+        alias: "ANDREY K",
         country: "RUS",
       },
       {
-        Alias: "ANGEL",
+        alias: "ANGEL",
         country: "HKG",
       },
       {
-        Alias: "ANGELO666",
+        alias: "ANGELO666",
         country: "ITA",
       },
       {
-        Alias: "ANGRYCOLER",
+        alias: "ANGRYCOLER",
         country: "ESP",
       },
       {
-        Alias: "ANGRYRORO",
+        alias: "ANGRYRORO",
         country: "USA",
       },
       {
-        Alias: "ANGUS",
+        alias: "ANGUS",
         country: "AUS",
       },
       {
-        Alias: "ANICOMI",
+        alias: "ANICOMI",
         country: "KAZ",
       },
       {
-        Alias: "ANNA D",
+        alias: "ANNA D",
         country: "USA",
       },
       {
-        Alias: "ANOMALOUS",
+        alias: "ANOMALOUS",
         country: "USA",
       },
       {
-        Alias: "DILLAN",
+        alias: "DILLAN",
         country: "USA",
       },
       {
-        Alias: "ANXIECHRIS",
+        alias: "ANXIECHRIS",
         country: "BRA",
       },
       {
-        Alias: "APROPERDOG",
+        alias: "APROPERDOG",
         country: "ITA",
       },
       {
-        Alias: "ARBARO",
+        alias: "ARBARO",
         country: "USA",
       },
       {
-        Alias: "ARCANTIUSX",
+        alias: "ARCANTIUSX",
         country: "XXX",
       },
       {
-        Alias: "ARCHINA",
+        alias: "ARCHINA",
         country: "GBR",
       },
       {
-        Alias: "ARD1998",
+        alias: "ARD1998",
         country: "NED",
       },
       {
-        Alias: "ARDEN",
+        alias: "ARDEN",
         country: "ITA",
       },
       {
-        Alias: "ARHPLAYSTETRIS",
+        alias: "ARHPLAYSTETRIS",
         country: "XXX",
       },
       {
-        Alias: "ARMON",
+        alias: "ARMON",
         country: "USA",
       },
       {
-        Alias: "ARMSTRONG",
+        alias: "ARMSTRONG",
         country: "USA",
       },
       {
-        Alias: "ARTUR",
+        alias: "ARTUR",
         country: "MDA",
       },
       {
-        Alias: "ASMADI",
+        alias: "ASMADI",
         country: "USA",
       },
       {
-        Alias: "ASTA",
+        alias: "ASTA",
         country: "USA",
       },
       {
-        Alias: "ASUNARU",
+        alias: "ASUNARU",
         country: "JPN",
       },
       {
-        Alias: "ATALITO",
+        alias: "ATALITO",
         country: "TUR",
       },
       {
-        Alias: "ATKOSTER",
+        alias: "ATKOSTER",
         country: "XXX",
       },
       {
-        Alias: "AURORA",
+        alias: "AURORA",
         country: "USA",
       },
       {
-        Alias: "AVGEEK",
+        alias: "AVGEEK",
         country: "USA",
       },
       {
-        Alias: "AVOGADRUU",
+        alias: "AVOGADRUU",
         country: "INA",
       },
       {
-        Alias: "AWNING_GUY",
+        alias: "AWNING_GUY",
         country: "USA",
       },
       {
-        Alias: "HANA",
+        alias: "HANA",
         country: "USA",
       },
       {
-        Alias: "AYDEN",
+        alias: "AYDEN",
         country: "ARG",
       },
       {
-        Alias: "AZN_ANTHONY",
+        alias: "AZN_ANTHONY",
         country: "AUS",
       },
       {
-        Alias: "B14NK",
+        alias: "B14NK",
         country: "USA",
       },
       {
-        Alias: "BACON AND PIE",
+        alias: "BACON AND PIE",
         country: "USA",
       },
       {
-        Alias: "BALAAGE",
+        alias: "BALAAGE",
         country: "HUN",
       },
       {
-        Alias: "BAO",
+        alias: "BAO",
         country: "SGP",
       },
       {
-        Alias: "BARD_OW",
+        alias: "BARD_OW",
         country: "IRL",
       },
       {
-        Alias: "BATFOY",
+        alias: "BATFOY",
         country: "USA",
       },
       {
-        Alias: "BBFORKY",
+        alias: "BBFORKY",
         country: "USA",
       },
       {
-        Alias: "BEA",
+        alias: "BEA",
         country: "BRA",
       },
       {
-        Alias: "BEADLE",
+        alias: "BEADLE",
         country: "GBR",
       },
       {
-        Alias: "BEASTINSHEN",
+        alias: "BEASTINSHEN",
         country: "USA",
       },
       {
-        Alias: "BEN C",
+        alias: "BEN C",
         country: "AUS",
       },
       {
-        Alias: "BEN MULLEN",
+        alias: "BEN MULLEN",
         country: "USA",
       },
       {
-        Alias: "BENFAMIR",
+        alias: "BENFAMIR",
         country: "GBR",
       },
       {
-        Alias: "BENJY",
+        alias: "BENJY",
         country: "USA",
       },
       {
-        Alias: "BENN",
+        alias: "BENN",
         country: "AUS",
       },
       {
-        Alias: "BENNOLCK",
+        alias: "BENNOLCK",
         country: "AUS",
       },
       {
-        Alias: "BEPO",
+        alias: "BEPO",
         country: "LUX",
       },
       {
-        Alias: "BETASTREP",
+        alias: "BETASTREP",
         country: "USA",
       },
       {
-        Alias: "BH180",
+        alias: "BH180",
         country: "XXX",
       },
       {
-        Alias: "BIG_RED",
+        alias: "BIG_RED",
         country: "USA",
       },
       {
-        Alias: "BIGGIEMAC",
+        alias: "BIGGIEMAC",
         country: "USA",
       },
       {
-        Alias: "BIGLEWWI",
+        alias: "BIGLEWWI",
         country: "USA",
       },
       {
-        Alias: "BIGSIPPY",
+        alias: "BIGSIPPY",
         country: "USA",
       },
       {
-        Alias: "BIRBWIZARD",
+        alias: "BIRBWIZARD",
         country: "USA",
       },
       {
-        Alias: "BISBY",
+        alias: "BISBY",
         country: "USA",
       },
       {
-        Alias: "BLAARG",
+        alias: "BLAARG",
         country: "USA",
       },
       {
-        Alias: "BLACKCAT",
+        alias: "BLACKCAT",
         country: "POL",
       },
       {
-        Alias: "BLAKEGONG",
+        alias: "BLAKEGONG",
         country: "SGP",
       },
       {
-        Alias: "BLARGMEISTER",
+        alias: "BLARGMEISTER",
         country: "GBR",
       },
       {
-        Alias: "BLAUWALBUBE",
+        alias: "BLAUWALBUBE",
         country: "GER",
       },
       {
-        Alias: "BLAZECC",
+        alias: "BLAZECC",
         country: "USA",
       },
       {
-        Alias: "BLAZIER",
+        alias: "BLAZIER",
         country: "AUS",
       },
       {
-        Alias: "BLUEBOB",
+        alias: "BLUEBOB",
         country: "CAN",
       },
       {
-        Alias: "BMAC",
+        alias: "BMAC",
         country: "CAN",
       },
       {
-        Alias: "BO STEIL",
+        alias: "BO STEIL",
         country: "USA",
       },
       {
-        Alias: "BOB JENKINS",
+        alias: "BOB JENKINS",
         country: "USA",
       },
       {
-        Alias: "BOSSROSS",
+        alias: "BOSSROSS",
         country: "USA",
       },
       {
-        Alias: "BOT_1985",
+        alias: "BOT_1985",
         country: "XXX",
       },
       {
-        Alias: "BOWSER",
+        alias: "BOWSER",
         country: "USA",
       },
       {
-        Alias: "BOXIE",
+        alias: "BOXIE",
         country: "POR",
       },
       {
-        Alias: "BREAKFASTNOODLES",
+        alias: "BREAKFASTNOODLES",
         country: "USA",
       },
       {
-        Alias: "BREANDAN",
+        alias: "BREANDAN",
         country: "GBR",
       },
       {
-        Alias: "BREN CHI",
+        alias: "BREN CHI",
         country: "HKG",
       },
       {
-        Alias: "BRENT W",
+        alias: "BRENT W",
         country: "AUS",
       },
       {
-        Alias: "BRIAN",
+        alias: "BRIAN",
         country: "HKG",
       },
       {
-        Alias: "BRIAN GLESSNER",
+        alias: "BRIAN GLESSNER",
         country: "USA",
       },
       {
-        Alias: "BRIAN PELLEGRINI",
+        alias: "BRIAN PELLEGRINI",
         country: "USA",
       },
       {
-        Alias: "BRIAN W",
+        alias: "BRIAN W",
         country: "USA",
       },
       {
-        Alias: "BRIANC",
+        alias: "BRIANC",
         country: "BRA",
       },
       {
-        Alias: "BRICE P",
+        alias: "BRICE P",
         country: "CAN",
       },
       {
-        Alias: "BRODINDAMP",
+        alias: "BRODINDAMP",
         country: "USA",
       },
       {
-        Alias: "BRYANMENDES",
+        alias: "BRYANMENDES",
         country: "USA",
       },
       {
-        Alias: "BTYPE",
+        alias: "BTYPE",
         country: "USA",
       },
       {
-        Alias: "BUBBLE",
+        alias: "BUBBLE",
         country: "GBR",
       },
       {
-        Alias: "BUCO",
+        alias: "BUCO",
         country: "USA",
       },
       {
-        Alias: "BULESKANE",
+        alias: "BULESKANE",
         country: "INA",
       },
       {
-        Alias: "BULLSEYE",
+        alias: "BULLSEYE",
         country: "USA",
       },
       {
-        Alias: "BURKE",
+        alias: "BURKE",
         country: "USA",
       },
       {
-        Alias: "BURRITODAD",
+        alias: "BURRITODAD",
         country: "USA",
       },
       {
-        Alias: "BUTTERED",
+        alias: "BUTTERED",
         country: "USA",
       },
       {
-        Alias: "C-B-A-",
+        alias: "C-B-A-",
         country: "CAN",
       },
       {
-        Alias: "C-DUBS",
+        alias: "C-DUBS",
         country: "USA",
       },
       {
-        Alias: "C.N.GEEK",
+        alias: "C.N.GEEK",
         country: "CAN",
       },
       {
-        Alias: "CALCULATINGPOET",
+        alias: "CALCULATINGPOET",
         country: "USA",
       },
       {
-        Alias: "CALIMANX",
+        alias: "CALIMANX",
         country: "USA",
       },
       {
-        Alias: "CAMEELHABIB",
+        alias: "CAMEELHABIB",
         country: "USA",
       },
       {
-        Alias: "CAMERON EURE",
+        alias: "CAMERON EURE",
         country: "USA",
       },
       {
-        Alias: "CARDEK",
+        alias: "CARDEK",
         country: "CZE",
       },
       {
-        Alias: "CASEY",
+        alias: "CASEY",
         country: "AUS",
       },
       {
-        Alias: "CASTE",
+        alias: "CASTE",
         country: "ITA",
       },
       {
-        Alias: "CASUALLY PWNING",
+        alias: "CASUALLY PWNING",
         country: "GBR",
       },
       {
-        Alias: "CAZ HOAD",
+        alias: "CAZ HOAD",
         country: "AUS",
       },
       {
-        Alias: "CC WINNER",
+        alias: "CC WINNER",
         country: "XXX",
       },
       {
-        Alias: "CHAD",
+        alias: "CHAD",
         country: "USA",
       },
       {
-        Alias: "CHAD MUSE",
+        alias: "CHAD MUSE",
         country: "USA",
       },
       {
-        Alias: "CHARKRA",
+        alias: "CHARKRA",
         country: "GBR",
       },
       {
-        Alias: "CHARLESSPARKLEY",
+        alias: "CHARLESSPARKLEY",
         country: "USA",
       },
       {
-        Alias: "ARCHNASH",
+        alias: "ARCHNASH",
         country: "GBR",
       },
       {
-        Alias: "BANJ026",
+        alias: "BANJ026",
         country: "PER",
       },
       {
-        Alias: "BENDY1",
+        alias: "BENDY1",
         country: "USA",
       },
       {
-        Alias: "BIGPILE",
+        alias: "BIGPILE",
         country: "GUM",
       },
       {
-        Alias: "CHEEZ",
+        alias: "CHEEZ",
         country: "USA",
       },
       {
-        Alias: "CHENZIXUAN",
+        alias: "CHENZIXUAN",
         country: "ROC",
       },
       {
-        Alias: "CHESSJERK",
+        alias: "CHESSJERK",
         country: "USA",
       },
       {
-        Alias: "CHIDORI",
+        alias: "CHIDORI",
         country: "USA",
       },
       {
-        Alias: "CHILLER",
+        alias: "CHILLER",
         country: "AUS",
       },
       {
-        Alias: "CHIRPINGMATT",
+        alias: "CHIRPINGMATT",
         country: "USA",
       },
       {
-        Alias: "CHODELERON",
+        alias: "CHODELERON",
         country: "USA",
       },
       {
-        Alias: "CHONG",
+        alias: "CHONG",
         country: "SGP",
       },
       {
-        Alias: "CHRIS (CANADA)",
+        alias: "CHRIS (CANADA)",
         country: "CAN",
       },
       {
-        Alias: "CHRIS BARB",
+        alias: "CHRIS BARB",
         country: "CAN",
       },
       {
-        Alias: "CHRIS BIDWELL",
+        alias: "CHRIS BIDWELL",
         country: "USA",
       },
       {
-        Alias: "CHRIS BRADY",
+        alias: "CHRIS BRADY",
         country: "USA",
       },
       {
-        Alias: "CHRIS EXTINE",
+        alias: "CHRIS EXTINE",
         country: "USA",
       },
       {
-        Alias: "CHRIS FORYST",
+        alias: "CHRIS FORYST",
         country: "POL",
       },
       {
-        Alias: "CHRIS H",
+        alias: "CHRIS H",
         country: "AUS",
       },
       {
-        Alias: "CHRIS K",
+        alias: "CHRIS K",
         country: "CAN",
       },
       {
-        Alias: "CHRIS TANG",
+        alias: "CHRIS TANG",
         country: "USA",
       },
       {
-        Alias: "CHRISSY FORD",
+        alias: "CHRISSY FORD",
         country: "GBR",
       },
       {
-        Alias: "CHRISTIAN",
+        alias: "CHRISTIAN",
         country: "USA",
       },
       {
-        Alias: "CHRONOS",
+        alias: "CHRONOS",
         country: "USA",
       },
       {
-        Alias: "CHRRRISTO",
+        alias: "CHRRRISTO",
         country: "CAN",
       },
       {
-        Alias: "CHUN WU",
+        alias: "CHUN WU",
         country: "HKG",
       },
       {
-        Alias: "CHUSHIGLORIA",
+        alias: "CHUSHIGLORIA",
         country: "GER",
       },
       {
-        Alias: "CIMBRAIEN",
+        alias: "CIMBRAIEN",
         country: "INA",
       },
       {
-        Alias: "CIPOLLARA",
+        alias: "CIPOLLARA",
         country: "ITA",
       },
       {
-        Alias: "CLANCY",
+        alias: "CLANCY",
         country: "USA",
       },
       {
-        Alias: "CLARENCE",
+        alias: "CLARENCE",
         country: "USA",
       },
       {
-        Alias: "ClassicTetris",
+        alias: "ClassicTetris",
         country: "XXX",
       },
       {
-        Alias: "ClassicTetris2",
+        alias: "ClassicTetris2",
         country: "XXX",
       },
       {
-        Alias: "ClassicTetrisItaly",
+        alias: "ClassicTetrisItaly",
         country: "XXX",
       },
       {
-        Alias: "ClassicTetrisKorea",
+        alias: "ClassicTetrisKorea",
         country: "XXX",
       },
       {
-        Alias: "ClassicTetrisLATAM",
+        alias: "ClassicTetrisLATAM",
         country: "XXX",
       },
       {
-        Alias: "ClassicTetrisLeague",
+        alias: "ClassicTetrisLeague",
         country: "XXX",
       },
       {
-        Alias: "classictetrispolska",
+        alias: "classictetrispolska",
         country: "XXX",
       },
       {
-        Alias: "ClassicTetrisRussia",
+        alias: "ClassicTetrisRussia",
         country: "XXX",
       },
       {
-        Alias: "ClassicTetrisVietnam",
+        alias: "ClassicTetrisVietnam",
         country: "XXX",
       },
       {
-        Alias: "CLAVER",
+        alias: "CLAVER",
         country: "BEL",
       },
       {
-        Alias: "CLEMAN",
+        alias: "CLEMAN",
         country: "GER",
       },
       {
-        Alias: "CLUBSODA",
+        alias: "CLUBSODA",
         country: "USA",
       },
       {
-        Alias: "CMG444",
+        alias: "CMG444",
         country: "USA",
       },
       {
-        Alias: "COLOR",
+        alias: "COLOR",
         country: "USA",
       },
       {
-        Alias: "COLSTON",
+        alias: "COLSTON",
         country: "GBR",
       },
       {
-        Alias: "COLTELLO",
+        alias: "COLTELLO",
         country: "KAZ",
       },
       {
-        Alias: "COLTON",
+        alias: "COLTON",
         country: "USA",
       },
       {
-        Alias: "COMBATSLAYER",
+        alias: "COMBATSLAYER",
         country: "XXX",
       },
       {
-        Alias: "COMEGALLETAS",
+        alias: "COMEGALLETAS",
         country: "COL",
       },
       {
-        Alias: "CONOR",
+        alias: "CONOR",
         country: "CAN",
       },
       {
-        Alias: "COOKIE",
+        alias: "COOKIE",
         country: "GBR",
       },
       {
-        Alias: "COUNTNEKO",
+        alias: "COUNTNEKO",
         country: "USA",
       },
       {
-        Alias: "CRAB",
+        alias: "CRAB",
         country: "USA",
       },
       {
-        Alias: "CRAFTEEKIM",
+        alias: "CRAFTEEKIM",
         country: "USA",
       },
       {
-        Alias: "CROAGUNK",
+        alias: "CROAGUNK",
         country: "KOR",
       },
       {
-        Alias: "CROWHUNTT",
+        alias: "CROWHUNTT",
         country: "ESP",
       },
       {
-        Alias: "CUB_03",
+        alias: "CUB_03",
         country: "PHI",
       },
       {
-        Alias: "CWIEKOSZCZAK",
+        alias: "CWIEKOSZCZAK",
         country: "POL",
       },
       {
-        Alias: "CWIIIS",
+        alias: "CWIIIS",
         country: "GBR",
       },
       {
-        Alias: "CZARJORDAN",
+        alias: "CZARJORDAN",
         country: "USA",
       },
       {
-        Alias: "D LO",
+        alias: "D LO",
         country: "USA",
       },
       {
-        Alias: "DAASIANN",
+        alias: "DAASIANN",
         country: "USA",
       },
       {
-        Alias: "DABEAST",
+        alias: "DABEAST",
         country: "USA",
       },
       {
-        Alias: "DADO",
+        alias: "DADO",
         country: "CRO",
       },
       {
-        Alias: "DADTRIS",
+        alias: "DADTRIS",
         country: "USA",
       },
       {
-        Alias: "DAIN ANDERSON",
+        alias: "DAIN ANDERSON",
         country: "USA",
       },
       {
-        Alias: "DAN CHILTON",
+        alias: "DAN CHILTON",
         country: "USA",
       },
       {
-        Alias: "DAN GRIFFIN",
+        alias: "DAN GRIFFIN",
         country: "AUS",
       },
       {
-        Alias: "DAN_999",
+        alias: "DAN_999",
         country: "USA",
       },
       {
-        Alias: "DANA WILCOX",
+        alias: "DANA WILCOX",
         country: "USA",
       },
       {
-        Alias: "DANANDR",
+        alias: "DANANDR",
         country: "RUS",
       },
       {
-        Alias: "DANIEL_USA",
+        alias: "DANIEL_USA",
         country: "USA",
       },
       {
-        Alias: "DANIELEMELONZ",
+        alias: "DANIELEMELONZ",
         country: "ITA",
       },
       {
-        Alias: "DANIELSONG",
+        alias: "DANIELSONG",
         country: "USA",
       },
       {
-        Alias: "DANLDP",
+        alias: "DANLDP",
         country: "INA",
       },
       {
-        Alias: "DANNY VULICH",
+        alias: "DANNY VULICH",
         country: "USA",
       },
       {
-        Alias: "DANNYMAGE",
+        alias: "DANNYMAGE",
         country: "USA",
       },
       {
-        Alias: "DANQZ",
+        alias: "DANQZ",
         country: "USA",
       },
       {
-        Alias: "DANSUSHI",
+        alias: "DANSUSHI",
         country: "USA",
       },
       {
-        Alias: "DANVINKI",
+        alias: "DANVINKI",
         country: "GBR",
       },
       {
-        Alias: "DARKARIES",
+        alias: "DARKARIES",
         country: "USA",
       },
       {
-        Alias: "DARKFOX36",
+        alias: "DARKFOX36",
         country: "USA",
       },
       {
-        Alias: "DARTHBUNNY",
+        alias: "DARTHBUNNY",
         country: "FIN",
       },
       {
-        Alias: "DARTHDREDZ",
+        alias: "DARTHDREDZ",
         country: "CAN",
       },
       {
-        Alias: "DAS_MASTER",
+        alias: "DAS_MASTER",
         country: "KOR",
       },
       {
-        Alias: "DASQZ",
+        alias: "DASQZ",
         country: "USA",
       },
       {
-        Alias: "DAVE",
+        alias: "DAVE",
         country: "HKG",
       },
       {
-        Alias: "DAVE M",
+        alias: "DAVE M",
         country: "AUS",
       },
       {
-        Alias: "DAVE W",
+        alias: "DAVE W",
         country: "CAN",
       },
       {
-        Alias: "DAVESMITHSAYS",
+        alias: "DAVESMITHSAYS",
         country: "USA",
       },
       {
-        Alias: "DAVID A",
+        alias: "DAVID A",
         country: "AUS",
       },
       {
-        Alias: "DAVID VULICH",
+        alias: "DAVID VULICH",
         country: "USA",
       },
       {
-        Alias: "DAVIDMJ",
+        alias: "DAVIDMJ",
         country: "USA",
       },
       {
-        Alias: "DAWG",
+        alias: "DAWG",
         country: "USA",
       },
       {
-        Alias: "DBS",
+        alias: "DBS",
         country: "CAN",
       },
       {
-        Alias: "DDTREGULATOR",
+        alias: "DDTREGULATOR",
         country: "USA",
       },
       {
-        Alias: "DE_MARTIAN",
+        alias: "DE_MARTIAN",
         country: "USA",
       },
       {
-        Alias: "DEADMEME",
+        alias: "DEADMEME",
         country: "USA",
       },
       {
-        Alias: "DEATHTAXES",
+        alias: "DEATHTAXES",
         country: "USA",
       },
       {
-        Alias: "DEEWEE",
+        alias: "DEEWEE",
         country: "FIN",
       },
       {
-        Alias: "DEIMOS",
+        alias: "DEIMOS",
         country: "ITA",
       },
       {
-        Alias: "DENIS1080",
+        alias: "DENIS1080",
         country: "CAN",
       },
       {
-        Alias: "DEPCOW",
+        alias: "DEPCOW",
         country: "USA",
       },
       {
-        Alias: "DERMOTNINJA",
+        alias: "DERMOTNINJA",
         country: "USA",
       },
       {
-        Alias: "DESERTEAGLE417",
+        alias: "DESERTEAGLE417",
         country: "USA",
       },
       {
-        Alias: "DEVBOSS",
+        alias: "DEVBOSS",
         country: "USA",
       },
       {
-        Alias: "DEVOLITION",
+        alias: "DEVOLITION",
         country: "USA",
       },
       {
-        Alias: "DEXFORE",
+        alias: "DEXFORE",
         country: "USA",
       },
       {
-        Alias: "DGCUBES",
+        alias: "DGCUBES",
         country: "USA",
       },
       {
-        Alias: "DIAMONDS",
+        alias: "DIAMONDS",
         country: "GBR",
       },
       {
-        Alias: "DIANA",
+        alias: "DIANA",
         country: "GBR",
       },
       {
-        Alias: "DIGGS",
+        alias: "DIGGS",
         country: "NOR",
       },
       {
-        Alias: "DIMA",
+        alias: "DIMA",
         country: "RUS",
       },
       {
-        Alias: "DIMNEL",
+        alias: "DIMNEL",
         country: "POL",
       },
       {
-        Alias: "DITSHADOWS",
+        alias: "DITSHADOWS",
         country: "USA",
       },
       {
-        Alias: "DIVCASTE",
+        alias: "DIVCASTE",
         country: "USA",
       },
       {
-        Alias: "DIZZY_AF",
+        alias: "DIZZY_AF",
         country: "RUS",
       },
       {
-        Alias: "DMHERO",
+        alias: "DMHERO",
         country: "USA",
       },
       {
-        Alias: "DMSY",
+        alias: "DMSY",
         country: "INA",
       },
       {
-        Alias: "DOBRYCZLEK",
+        alias: "DOBRYCZLEK",
         country: "POL",
       },
       {
-        Alias: "DOG",
+        alias: "DOG",
         country: "USA",
       },
       {
-        Alias: "DOGE",
+        alias: "DOGE",
         country: "USA",
       },
       {
-        Alias: "DON",
+        alias: "DON",
         country: "HKG",
       },
       {
-        Alias: "DOOMSTER",
+        alias: "DOOMSTER",
         country: "CAN",
       },
       {
-        Alias: "DORIAN",
+        alias: "DORIAN",
         country: "USA",
       },
       {
-        Alias: "DOUGLAS ARCADI",
+        alias: "DOUGLAS ARCADI",
         country: "USA",
       },
       {
-        Alias: "DREW SHOTWELL",
+        alias: "DREW SHOTWELL",
         country: "USA",
       },
       {
-        Alias: "DRFUZZMAN",
+        alias: "DRFUZZMAN",
         country: "USA",
       },
       {
-        Alias: "DRKN1CKERS",
+        alias: "DRKN1CKERS",
         country: "MYS",
       },
       {
-        Alias: "DTHEOREM",
+        alias: "DTHEOREM",
         country: "CAN",
       },
       {
-        Alias: "E_FLAT7",
+        alias: "E_FLAT7",
         country: "CAN",
       },
       {
-        Alias: "EAGLE",
+        alias: "EAGLE",
         country: "FRA",
       },
       {
-        Alias: "EANDIS",
+        alias: "EANDIS",
         country: "RUS",
       },
       {
-        Alias: "ECLASSIC32",
+        alias: "ECLASSIC32",
         country: "XXX",
       },
       {
-        Alias: "ED",
+        alias: "ED",
         country: "USA",
       },
       {
-        Alias: "EEE_INN",
+        alias: "EEE_INN",
         country: "USA",
       },
       {
-        Alias: "EESHOOT",
+        alias: "EESHOOT",
         country: "RUS",
       },
       {
-        Alias: "EGGDIZZY",
+        alias: "EGGDIZZY",
         country: "POL",
       },
       {
-        Alias: "EL_PANTZZZ",
+        alias: "EL_PANTZZZ",
         country: "USA",
       },
       {
-        Alias: "ELI MARKSTROM",
+        alias: "ELI MARKSTROM",
         country: "USA",
       },
       {
-        Alias: "ELIWA",
+        alias: "ELIWA",
         country: "AUT",
       },
       {
-        Alias: "ELPAILTEM",
+        alias: "ELPAILTEM",
         country: "NED",
       },
       {
-        Alias: "EMPTY",
+        alias: "EMPTY",
         country: "CAN",
       },
       {
-        Alias: "EMPTYEYE",
+        alias: "EMPTYEYE",
         country: "USA",
       },
       {
-        Alias: "EMPTYFIELD",
+        alias: "EMPTYFIELD",
         country: "XXX",
       },
       {
-        Alias: "EMRAH",
+        alias: "EMRAH",
         country: "LUX",
       },
       {
-        Alias: "ENDERMINE",
+        alias: "ENDERMINE",
         country: "CAN",
       },
       {
-        Alias: "EQ PILLOW",
+        alias: "EQ PILLOW",
         country: "USA",
       },
       {
-        Alias: "EREN",
+        alias: "EREN",
         country: "USA",
       },
       {
-        Alias: "ERICICX",
+        alias: "ERICICX",
         country: "USA",
       },
       {
-        Alias: "ERIK",
+        alias: "ERIK",
         country: "CAN",
       },
       {
-        Alias: "ERIS",
+        alias: "ERIS",
         country: "SUI",
       },
       {
-        Alias: "ESSILOKS",
+        alias: "ESSILOKS",
         country: "NOR",
       },
       {
-        Alias: "ETFRUITNINJA",
+        alias: "ETFRUITNINJA",
         country: "USA",
       },
       {
-        Alias: "ETHAN DANIELS",
+        alias: "ETHAN DANIELS",
         country: "USA",
       },
       {
-        Alias: "EVESY",
+        alias: "EVESY",
         country: "GBR",
       },
       {
-        Alias: "EVUUSAN",
+        alias: "EVUUSAN",
         country: "USA",
       },
       {
-        Alias: "EVYBABEE",
+        alias: "EVYBABEE",
         country: "CAN",
       },
       {
-        Alias: "EXEWIN",
+        alias: "EXEWIN",
         country: "POL",
       },
       {
-        Alias: "F1CHAMPION",
+        alias: "F1CHAMPION",
         country: "ESP",
       },
       {
-        Alias: "FABIO WONG",
+        alias: "FABIO WONG",
         country: "HKG",
       },
       {
-        Alias: "FABRICE",
+        alias: "FABRICE",
         country: "FRA",
       },
       {
-        Alias: "FAMAROK",
+        alias: "FAMAROK",
         country: "SWE",
       },
       {
-        Alias: "FARHAN",
+        alias: "FARHAN",
         country: "INA",
       },
       {
-        Alias: "FATHER ESTEBAN",
+        alias: "FATHER ESTEBAN",
         country: "AUS",
       },
       {
-        Alias: "FATSAM",
+        alias: "FATSAM",
         country: "MAC",
       },
       {
-        Alias: "FBI_STEVO",
+        alias: "FBI_STEVO",
         country: "USA",
       },
       {
-        Alias: "FELINHO",
+        alias: "FELINHO",
         country: "GER",
       },
       {
-        Alias: "FELIPE",
+        alias: "FELIPE",
         country: "BRA",
       },
       {
-        Alias: "FENIL",
+        alias: "FENIL",
         country: "IND",
       },
       {
-        Alias: "FEODEN",
+        alias: "FEODEN",
         country: "USA",
       },
       {
-        Alias: "FERROW",
+        alias: "FERROW",
         country: "GER",
       },
       {
-        Alias: "FFRPRO21",
+        alias: "FFRPRO21",
         country: "CAN",
       },
       {
-        Alias: "FH_JORDAN",
+        alias: "FH_JORDAN",
         country: "XXX",
       },
       {
-        Alias: "FLASHBOY",
+        alias: "FLASHBOY",
         country: "VIE",
       },
       {
-        Alias: "FLORIAN",
+        alias: "FLORIAN",
         country: "AUT",
       },
       {
-        Alias: "FOILEDTHRICE",
+        alias: "FOILEDTHRICE",
         country: "USA",
       },
       {
-        Alias: "FOUAD",
+        alias: "FOUAD",
         country: "USA",
       },
       {
-        Alias: "FRACTAL",
+        alias: "FRACTAL",
         country: "USA",
       },
       {
-        Alias: "FRADOG",
+        alias: "FRADOG",
         country: "AUS",
       },
       {
-        Alias: "FRAMEDUMP",
+        alias: "FRAMEDUMP",
         country: "NZL",
       },
       {
-        Alias: "FRANK WESTPHAL",
+        alias: "FRANK WESTPHAL",
         country: "USA",
       },
       {
-        Alias: "FRANKO",
+        alias: "FRANKO",
         country: "HKG",
       },
       {
-        Alias: "FREDAGSVIK",
+        alias: "FREDAGSVIK",
         country: "NOR",
       },
       {
-        Alias: "FREDHOLM",
+        alias: "FREDHOLM",
         country: "SWE",
       },
       {
-        Alias: "FREEMAN",
+        alias: "FREEMAN",
         country: "ESP",
       },
       {
-        Alias: "FREYASSPRT",
+        alias: "FREYASSPRT",
         country: "USA",
       },
       {
-        Alias: "FRIDAYWITCH",
+        alias: "FRIDAYWITCH",
         country: "USA",
       },
       {
-        Alias: "FRITZ",
+        alias: "FRITZ",
         country: "NED",
       },
       {
-        Alias: "FUNG CHAN",
+        alias: "FUNG CHAN",
         country: "HKG",
       },
       {
-        Alias: "FUR OF KITTEN",
+        alias: "FUR OF KITTEN",
         country: "CAN",
       },
       {
-        Alias: "FURIOUS PROGRAMMING",
+        alias: "FURIOUS PROGRAMMING",
         country: "POL",
       },
       {
-        Alias: "FUTURE",
+        alias: "FUTURE",
         country: "USA",
       },
       {
-        Alias: "GABRIEL REZENDE",
+        alias: "GABRIEL REZENDE",
         country: "BRA",
       },
       {
-        Alias: "GALOOMBA",
+        alias: "GALOOMBA",
         country: "SLO",
       },
       {
-        Alias: "GARBAGEEGG",
+        alias: "GARBAGEEGG",
         country: "IRL",
       },
       {
-        Alias: "GARION",
+        alias: "GARION",
         country: "USA",
       },
       {
-        Alias: "GARY",
+        alias: "GARY",
         country: "HKG",
       },
       {
-        Alias: "GARY LIAO",
+        alias: "GARY LIAO",
         country: "CAN",
       },
       {
-        Alias: "GASTER",
+        alias: "GASTER",
         country: "PHI",
       },
       {
-        Alias: "GBRM8",
+        alias: "GBRM8",
         country: "GBR",
       },
       {
-        Alias: "GDUDGE",
+        alias: "GDUDGE",
         country: "POL",
       },
       {
-        Alias: "GEEFORCE",
+        alias: "GEEFORCE",
         country: "USA",
       },
       {
-        Alias: "GENO",
+        alias: "GENO",
         country: "USA",
       },
       {
-        Alias: "GERALD",
+        alias: "GERALD",
         country: "SGP",
       },
       {
-        Alias: "GERHARD_ADLER",
+        alias: "GERHARD_ADLER",
         country: "NOR",
       },
       {
-        Alias: "GERZI",
+        alias: "GERZI",
         country: "HUN",
       },
       {
-        Alias: "GIANT",
+        alias: "GIANT",
         country: "GER",
       },
       {
-        Alias: "GIN MORGAN",
+        alias: "GIN MORGAN",
         country: "USA",
       },
       {
-        Alias: "GIO",
+        alias: "GIO",
         country: "PUR",
       },
       {
-        Alias: "GIOVANNI",
+        alias: "GIOVANNI",
         country: "ITA",
       },
       {
-        Alias: "GIZMO4487",
+        alias: "GIZMO4487",
         country: "USA",
       },
       {
-        Alias: "GLITCHCAT7",
+        alias: "GLITCHCAT7",
         country: "USA",
       },
       {
-        Alias: "GOEL",
+        alias: "GOEL",
         country: "USA",
       },
       {
-        Alias: "GOLDENNICKEL",
+        alias: "GOLDENNICKEL",
         country: "NED",
       },
       {
-        Alias: "GOOBERLP",
+        alias: "GOOBERLP",
         country: "USA",
       },
       {
-        Alias: "GRANDDESIGNS",
+        alias: "GRANDDESIGNS",
         country: "USA",
       },
       {
-        Alias: "GRANNYPANPAN",
+        alias: "GRANNYPANPAN",
         country: "USA",
       },
       {
-        Alias: "GRANT SIEFKER",
+        alias: "GRANT SIEFKER",
         country: "USA",
       },
       {
-        Alias: "GRAPE",
+        alias: "GRAPE",
         country: "SGP",
       },
       {
-        Alias: "GREENTEA",
+        alias: "GREENTEA",
         country: "JPN",
       },
       {
-        Alias: "GREG OPYC",
+        alias: "GREG OPYC",
         country: "CAN",
       },
       {
-        Alias: "GREG VANDER VELDEN",
+        alias: "GREG VANDER VELDEN",
         country: "USA",
       },
       {
-        Alias: "GREGBOOMCANNON",
+        alias: "GREGBOOMCANNON",
         country: "USA",
       },
       {
-        Alias: "GREGO",
+        alias: "GREGO",
         country: "USA",
       },
       {
-        Alias: "GROBLIN",
+        alias: "GROBLIN",
         country: "AUS",
       },
       {
-        Alias: "GUERREROASDF",
+        alias: "GUERREROASDF",
         country: "COL",
       },
       {
-        Alias: "GUMMITHECAT",
+        alias: "GUMMITHECAT",
         country: "USA",
       },
       {
-        Alias: "GUNTER",
+        alias: "GUNTER",
         country: "FRA",
       },
       {
-        Alias: "GUO ZI ANG",
+        alias: "GUO ZI ANG",
         country: "ROC",
       },
       {
-        Alias: "H2OHAPPYDUDE",
+        alias: "H2OHAPPYDUDE",
         country: "USA",
       },
       {
-        Alias: "HALLOWEEN",
+        alias: "HALLOWEEN",
         country: "FRA",
       },
       {
-        Alias: "HANKS",
+        alias: "HANKS",
         country: "CAN",
       },
       {
-        Alias: "HARDDROPCAFE",
+        alias: "HARDDROPCAFE",
         country: "LIE",
       },
       {
-        Alias: "HARRIEM",
+        alias: "HARRIEM",
         country: "GRE",
       },
       {
-        Alias: "HARRISON (KOFI)",
+        alias: "HARRISON (KOFI)",
         country: "USA",
       },
       {
-        Alias: "HARRY",
+        alias: "HARRY",
         country: "USA",
       },
       {
-        Alias: "HAVEN",
+        alias: "HAVEN",
         country: "HKG",
       },
       {
-        Alias: "HEADJUMP",
+        alias: "HEADJUMP",
         country: "GER",
       },
       {
-        Alias: "HEATHER ITO",
+        alias: "HEATHER ITO",
         country: "USA",
       },
       {
-        Alias: "HEBOMAI",
+        alias: "HEBOMAI",
         country: "JPN",
       },
       {
-        Alias: "HEIST",
+        alias: "HEIST",
         country: "CHI",
       },
       {
-        Alias: "HELI",
+        alias: "HELI",
         country: "AUS",
       },
       {
-        Alias: "HELOMAIR",
+        alias: "HELOMAIR",
         country: "ROC",
       },
       {
-        Alias: "HENRY HU",
+        alias: "HENRY HU",
         country: "AUS",
       },
       {
-        Alias: "HEPPS",
+        alias: "HEPPS",
         country: "GBR",
       },
       {
-        Alias: "HEZZULI",
+        alias: "HEZZULI",
         country: "FIN",
       },
       {
-        Alias: "HGAGNON",
+        alias: "HGAGNON",
         country: "USA",
       },
       {
-        Alias: "HIDERI",
+        alias: "HIDERI",
         country: "USA",
       },
       {
-        Alias: "HIKARU",
+        alias: "HIKARU",
         country: "VIE",
       },
       {
-        Alias: "HIM",
+        alias: "HIM",
         country: "HKG",
       },
       {
-        Alias: "HIWD",
+        alias: "HIWD",
         country: "USA",
       },
       {
-        Alias: "HIYBEHUB",
+        alias: "HIYBEHUB",
         country: "USA",
       },
       {
-        Alias: "HOLIFYRE",
+        alias: "HOLIFYRE",
         country: "KOR",
       },
       {
-        Alias: "HORRORKRFT",
+        alias: "HORRORKRFT",
         country: "GER",
       },
       {
-        Alias: "HUFF (ROLL)",
+        alias: "HUFF (ROLL)",
         country: "USA",
       },
       {
-        Alias: "HUFFULUFUGUS",
+        alias: "HUFFULUFUGUS",
         country: "USA",
       },
       {
-        Alias: "HUNN14",
+        alias: "HUNN14",
         country: "USA",
       },
       {
-        Alias: "HYAKUTARO",
+        alias: "HYAKUTARO",
         country: "ITA",
       },
       {
-        Alias: "HYDRANTDUDE",
+        alias: "HYDRANTDUDE",
         country: "USA",
       },
       {
-        Alias: "HYPER-X",
+        alias: "HYPER-X",
         country: "CAN",
       },
       {
-        Alias: "HYPERMISDROPPER",
+        alias: "HYPERMISDROPPER",
         country: "USA",
       },
       {
-        Alias: "I31X",
+        alias: "I31X",
         country: "USA",
       },
       {
-        Alias: "IANKEITH",
+        alias: "IANKEITH",
         country: "USA",
       },
       {
-        Alias: "IANNIBBA",
+        alias: "IANNIBBA",
         country: "USA",
       },
       {
-        Alias: "IBALL",
+        alias: "IBALL",
         country: "CAN",
       },
       {
-        Alias: "ICEBLADE73",
+        alias: "ICEBLADE73",
         country: "SUI",
       },
       {
-        Alias: "ICEFOX",
+        alias: "ICEFOX",
         country: "XXX",
       },
       {
-        Alias: "IDKROFL",
+        alias: "IDKROFL",
         country: "USA",
       },
       {
-        Alias: "IHSCA (KYW)",
+        alias: "IHSCA (KYW)",
         country: "ROC",
       },
       {
-        Alias: "ILARIA",
+        alias: "ILARIA",
         country: "ITA",
       },
       {
-        Alias: "ILJAIN",
+        alias: "ILJAIN",
         country: "ROC",
       },
       {
-        Alias: "IMDSS",
+        alias: "IMDSS",
         country: "POR",
       },
       {
-        Alias: "IMOC",
+        alias: "IMOC",
         country: "GER",
       },
       {
-        Alias: "IMPLODE",
+        alias: "IMPLODE",
         country: "USA",
       },
       {
-        Alias: "INDIAN LUKE",
+        alias: "INDIAN LUKE",
         country: "IND",
       },
       {
-        Alias: "INEXISTENCE",
+        alias: "INEXISTENCE",
         country: "GBR",
       },
       {
-        Alias: "INSANISO",
+        alias: "INSANISO",
         country: "BRA",
       },
       {
-        Alias: "ISAAC",
+        alias: "ISAAC",
         country: "HKG",
       },
       {
-        Alias: "ISAAKQUING",
+        alias: "ISAAKQUING",
         country: "RUS",
       },
       {
-        Alias: "ISAQUE",
+        alias: "ISAQUE",
         country: "BRA",
       },
       {
-        Alias: "ITGBALBAR",
+        alias: "ITGBALBAR",
         country: "MGL",
       },
       {
-        Alias: "ITSTHEFIRE",
+        alias: "ITSTHEFIRE",
         country: "VIE",
       },
       {
-        Alias: "J",
+        alias: "J",
         country: "USA",
       },
       {
-        Alias: "JACK SLATER",
+        alias: "JACK SLATER",
         country: "USA",
       },
       {
-        Alias: "JACKIEB",
+        alias: "JACKIEB",
         country: "USA",
       },
       {
-        Alias: "JACKSON",
+        alias: "JACKSON",
         country: "CAN",
       },
       {
-        Alias: "JAIRIN",
+        alias: "JAIRIN",
         country: "ECU",
       },
       {
-        Alias: "JAKE STEIN",
+        alias: "JAKE STEIN",
         country: "USA",
       },
       {
-        Alias: "JAKEY",
+        alias: "JAKEY",
         country: "USA",
       },
       {
-        Alias: "JAKUB",
+        alias: "JAKUB",
         country: "GER",
       },
       {
-        Alias: "JAMEZO",
+        alias: "JAMEZO",
         country: "USA",
       },
       {
-        Alias: "JANI",
+        alias: "JANI",
         country: "FIN",
       },
       {
-        Alias: "JAPORTO",
+        alias: "JAPORTO",
         country: "BRA",
       },
       {
-        Alias: "JASON SIMONEAUX",
+        alias: "JASON SIMONEAUX",
         country: "USA",
       },
       {
-        Alias: "JATLOE",
+        alias: "JATLOE",
         country: "USA",
       },
       {
-        Alias: "JAVU3",
+        alias: "JAVU3",
         country: "ESP",
       },
       {
-        Alias: "JAWS",
+        alias: "JAWS",
         country: "USA",
       },
       {
-        Alias: "JAYDUBBYY",
+        alias: "JAYDUBBYY",
         country: "USA",
       },
       {
-        Alias: "JAYP33",
+        alias: "JAYP33",
         country: "GER",
       },
       {
-        Alias: "JAZZTHIEF",
+        alias: "JAZZTHIEF",
         country: "BEL",
       },
       {
-        Alias: "JAZZYSPNL",
+        alias: "JAZZYSPNL",
         country: "USA",
       },
       {
-        Alias: "JEDI",
+        alias: "JEDI",
         country: "LUX",
       },
       {
-        Alias: "JEEZ007",
+        alias: "JEEZ007",
         country: "CAN",
       },
       {
-        Alias: "JEFF",
+        alias: "JEFF",
         country: "USA",
       },
       {
-        Alias: "JEFF TCHEN",
+        alias: "JEFF TCHEN",
         country: "CAN",
       },
       {
-        Alias: "JEFFERSON",
+        alias: "JEFFERSON",
         country: "SGP",
       },
       {
-        Alias: "JEFFREY",
+        alias: "JEFFREY",
         country: "LUX",
       },
       {
-        Alias: "JEJEREMIAS",
+        alias: "JEJEREMIAS",
         country: "ARG",
       },
       {
-        Alias: "JELLO_SSB",
+        alias: "JELLO_SSB",
         country: "USA",
       },
       {
-        Alias: "JELLY",
+        alias: "JELLY",
         country: "CAN",
       },
       {
-        Alias: "JELONAVINA",
+        alias: "JELONAVINA",
         country: "FIN",
       },
       {
-        Alias: "JEN_98",
+        alias: "JEN_98",
         country: "USA",
       },
       {
-        Alias: "JEOSLAPHA",
+        alias: "JEOSLAPHA",
         country: "CAN",
       },
       {
-        Alias: "JEREME",
+        alias: "JEREME",
         country: "SGP",
       },
       {
-        Alias: "JERPIDUDE",
+        alias: "JERPIDUDE",
         country: "USA",
       },
       {
-        Alias: "JESSE KELKAR",
+        alias: "JESSE KELKAR",
         country: "USA",
       },
       {
-        Alias: "JJ",
+        alias: "JJ",
         country: "FIN",
       },
       {
-        Alias: "JLET",
+        alias: "JLET",
         country: "XXX",
       },
       {
-        Alias: "JOACOZEP",
+        alias: "JOACOZEP",
         country: "ARG",
       },
       {
-        Alias: "JOCKEL",
+        alias: "JOCKEL",
         country: "GER",
       },
       {
-        Alias: "JOE",
+        alias: "JOE",
         country: "USA",
       },
       {
-        Alias: "JOELINK",
+        alias: "JOELINK",
         country: "ARG",
       },
       {
-        Alias: "JOEY PARKER",
+        alias: "JOEY PARKER",
         country: "USA",
       },
       {
-        Alias: "JOHANN",
+        alias: "JOHANN",
         country: "BRA",
       },
       {
-        Alias: "JOHN BYRAM",
+        alias: "JOHN BYRAM",
         country: "USA",
       },
       {
-        Alias: "JOHN WONG",
+        alias: "JOHN WONG",
         country: "HKG",
       },
       {
-        Alias: "JOHN_8100",
+        alias: "JOHN_8100",
         country: "MLT",
       },
       {
-        Alias: "JOMANCOOL",
+        alias: "JOMANCOOL",
         country: "BEL",
       },
       {
-        Alias: "JON BAKER",
+        alias: "JON BAKER",
         country: "USA",
       },
       {
-        Alias: "JONAS",
+        alias: "JONAS",
         country: "USA",
       },
       {
-        Alias: "JONO103",
+        alias: "JONO103",
         country: "AUS",
       },
       {
-        Alias: "JORDAN HARRISON",
+        alias: "JORDAN HARRISON",
         country: "USA",
       },
       {
-        Alias: "JORDAN_CAN",
+        alias: "JORDAN_CAN",
         country: "CAN",
       },
       {
-        Alias: "JORGE WHITE",
+        alias: "JORGE WHITE",
         country: "MEX",
       },
       {
-        Alias: "JOSEPH",
+        alias: "JOSEPH",
         country: "USA",
       },
       {
-        Alias: "JOSH TOLLES",
+        alias: "JOSH TOLLES",
         country: "USA",
       },
       {
-        Alias: "JOYCE",
+        alias: "JOYCE",
         country: "HKG",
       },
       {
-        Alias: "JUICY",
+        alias: "JUICY",
         country: "KOR",
       },
       {
-        Alias: "LTIQUE",
+        alias: "LTIQUE",
         country: "LTU",
       },
       {
-        Alias: "JUST_CALL_ME_AL",
+        alias: "JUST_CALL_ME_AL",
         country: "USA",
       },
       {
-        Alias: "JUSTIN B",
+        alias: "JUSTIN B",
         country: "USA",
       },
       {
-        Alias: "JUSTINMAN",
+        alias: "JUSTINMAN",
         country: "USA",
       },
       {
-        Alias: "JUSTUS",
+        alias: "JUSTUS",
         country: "USA",
       },
       {
-        Alias: "KAELGEN",
+        alias: "KAELGEN",
         country: "FRA",
       },
       {
-        Alias: "KAINOS",
+        alias: "KAINOS",
         country: "KOR",
       },
       {
-        Alias: "KAT",
+        alias: "KAT",
         country: "ITA",
       },
       {
-        Alias: "KDENYE",
+        alias: "KDENYE",
         country: "FIN",
       },
       {
-        Alias: "KEBABSKI",
+        alias: "KEBABSKI",
         country: "SWE",
       },
       {
-        Alias: "KEITH WONG",
+        alias: "KEITH WONG",
         country: "CAN",
       },
       {
-        Alias: "KELSEY",
+        alias: "KELSEY",
         country: "CAN",
       },
       {
-        Alias: "KENNY",
+        alias: "KENNY",
         country: "USA",
       },
       {
-        Alias: "KEVIN",
+        alias: "KEVIN",
         country: "USA",
       },
       {
-        Alias: "KEVIN BIRRELL",
+        alias: "KEVIN BIRRELL",
         country: "USA",
       },
       {
-        Alias: "KIBI_BYTE",
+        alias: "KIBI_BYTE",
         country: "USA",
       },
       {
-        Alias: "KINETICBEAST",
+        alias: "KINETICBEAST",
         country: "USA",
       },
       {
-        Alias: "KINGSMAN",
+        alias: "KINGSMAN",
         country: "USA",
       },
       {
-        Alias: "KIRBY703",
+        alias: "KIRBY703",
         country: "USA",
       },
       {
-        Alias: "KIRBYRULZ",
+        alias: "KIRBYRULZ",
         country: "USA",
       },
       {
-        Alias: "KITCOT",
+        alias: "KITCOT",
         country: "GBR",
       },
       {
-        Alias: "KLEIN",
+        alias: "KLEIN",
         country: "CHN",
       },
       {
-        Alias: "KNEXOOS",
+        alias: "KNEXOOS",
         country: "CAN",
       },
       {
-        Alias: "KOFI",
+        alias: "KOFI",
         country: "USA",
       },
       {
-        Alias: "KOIRO",
+        alias: "KOIRO",
         country: "FIN",
       },
       {
-        Alias: "KOJTEK",
+        alias: "KOJTEK",
         country: "POL",
       },
       {
-        Alias: "KOLJAKOALA",
+        alias: "KOLJAKOALA",
         country: "GER",
       },
       {
-        Alias: "KOOLIO",
+        alias: "KOOLIO",
         country: "USA",
       },
       {
-        Alias: "KORYAN",
+        alias: "KORYAN",
         country: "JPN",
       },
       {
-        Alias: "KRB",
+        alias: "KRB",
         country: "CAN",
       },
       {
-        Alias: "KRIM0R",
+        alias: "KRIM0R",
         country: "USA",
       },
       {
-        Alias: "KRISTEN STEIN",
+        alias: "KRISTEN STEIN",
         country: "USA",
       },
       {
-        Alias: "KRYPTONICK",
+        alias: "KRYPTONICK",
         country: "GBR",
       },
       {
-        Alias: "KRZYWY",
+        alias: "KRZYWY",
         country: "POL",
       },
       {
-        Alias: "KUBOXXXXX",
+        alias: "KUBOXXXXX",
         country: "POL",
       },
       {
-        Alias: "KUNFUSINGPOKE",
+        alias: "KUNFUSINGPOKE",
         country: "USA",
       },
       {
-        Alias: "KURRI",
+        alias: "KURRI",
         country: "ISL",
       },
       {
-        Alias: "KYLEPRECISE",
+        alias: "KYLEPRECISE",
         country: "USA",
       },
       {
-        Alias: "KYON",
+        alias: "KYON",
         country: "USA",
       },
       {
-        Alias: "L_CPP",
+        alias: "L_CPP",
         country: "USA",
       },
       {
-        Alias: "LAKABOT",
+        alias: "LAKABOT",
         country: "UKR",
       },
       {
-        Alias: "LANA",
+        alias: "LANA",
         country: "AUS",
       },
       {
-        Alias: "LANNHENG",
+        alias: "LANNHENG",
         country: "AUS",
       },
       {
-        Alias: "LARS FROM TEXAS",
+        alias: "LARS FROM TEXAS",
         country: "USA",
       },
       {
-        Alias: "LASTAROT",
+        alias: "LASTAROT",
         country: "BEL",
       },
       {
-        Alias: "LAU CHEUK",
+        alias: "LAU CHEUK",
         country: "HKG",
       },
       {
-        Alias: "LAZERMONKEY",
+        alias: "LAZERMONKEY",
         country: "USA",
       },
       {
-        Alias: "LDINOS",
+        alias: "LDINOS",
         country: "GRE",
       },
       {
-        Alias: "LEAURAX",
+        alias: "LEAURAX",
         country: "GER",
       },
       {
-        Alias: "LED ASTRAY",
+        alias: "LED ASTRAY",
         country: "RUS",
       },
       {
-        Alias: "LEE HUI",
+        alias: "LEE HUI",
         country: "SGP",
       },
       {
-        Alias: "LEEPINE",
+        alias: "LEEPINE",
         country: "SGP",
       },
       {
-        Alias: "LEONIQORN",
+        alias: "LEONIQORN",
         country: "GER",
       },
       {
-        Alias: "LESTERN",
+        alias: "LESTERN",
         country: "RUS",
       },
       {
-        Alias: "LETTUCE",
+        alias: "LETTUCE",
         country: "GBR",
       },
       {
-        Alias: "LG3RM",
+        alias: "LG3RM",
         country: "GER",
       },
       {
-        Alias: "LIAM",
+        alias: "LIAM",
         country: "AUS",
       },
       {
-        Alias: "LIFTERIS",
+        alias: "LIFTERIS",
         country: "LTU",
       },
       {
-        Alias: "LIKEADCARRY2",
+        alias: "LIKEADCARRY2",
         country: "USA",
       },
       {
-        Alias: "LILLI",
+        alias: "LILLI",
         country: "SGP",
       },
       {
-        Alias: "LIMAO",
+        alias: "LIMAO",
         country: "BRA",
       },
       {
-        Alias: "LIMEN",
+        alias: "LIMEN",
         country: "USA",
       },
       {
-        Alias: "LIMEN_LAVENDER",
+        alias: "LIMEN_LAVENDER",
         country: "USA",
       },
       {
-        Alias: "LITTLE_MAC",
+        alias: "LITTLE_MAC",
         country: "RUS",
       },
       {
-        Alias: "LJ FIN",
+        alias: "LJ FIN",
         country: "AUS",
       },
       {
-        Alias: "LMAO_YEET",
+        alias: "LMAO_YEET",
         country: "USA",
       },
       {
-        Alias: "LMAOTSETUNG",
+        alias: "LMAOTSETUNG",
         country: "USA",
       },
       {
-        Alias: "LOCKY",
+        alias: "LOCKY",
         country: "HKG",
       },
       {
-        Alias: "LOGAN",
+        alias: "LOGAN",
         country: "CAN",
       },
       {
-        Alias: "LOLCATZ",
+        alias: "LOLCATZ",
         country: "GBR",
       },
       {
-        Alias: "LONGBOY",
+        alias: "LONGBOY",
         country: "SWE",
       },
       {
-        Alias: "LORD_NOOM",
+        alias: "LORD_NOOM",
         country: "GER",
       },
       {
-        Alias: "LORD4NONI",
+        alias: "LORD4NONI",
         country: "GER",
       },
       {
-        Alias: "LOUIE SKOUIE",
+        alias: "LOUIE SKOUIE",
         country: "CAN",
       },
       {
-        Alias: "LOWERCASE",
+        alias: "LOWERCASE",
         country: "USA",
       },
       {
-        Alias: "LU_CHRIS",
+        alias: "LU_CHRIS",
         country: "LUX",
       },
       {
-        Alias: "LU_FELIX",
+        alias: "LU_FELIX",
         country: "LUX",
       },
       {
-        Alias: "LU_JOSHUA",
+        alias: "LU_JOSHUA",
         country: "LUX",
       },
       {
-        Alias: "LU_LUC",
+        alias: "LU_LUC",
         country: "LUX",
       },
       {
-        Alias: "LU_MAXIME",
+        alias: "LU_MAXIME",
         country: "LUX",
       },
       {
-        Alias: "LU_MIKE",
+        alias: "LU_MIKE",
         country: "LUX",
       },
       {
-        Alias: "LU_TARA",
+        alias: "LU_TARA",
         country: "LUX",
       },
       {
-        Alias: "LUCAS3241",
+        alias: "LUCAS3241",
         country: "BRA",
       },
       {
-        Alias: "LUCO",
+        alias: "LUCO",
         country: "NED",
       },
       {
-        Alias: "LUCY",
+        alias: "LUCY",
         country: "GBSC",
       },
       {
-        Alias: "LUIS",
+        alias: "LUIS",
         country: "ESP",
       },
       {
-        Alias: "LUIS_TETRIS",
+        alias: "LUIS_TETRIS",
         country: "POR",
       },
       {
-        Alias: "LUISZABBY",
+        alias: "LUISZABBY",
         country: "AUT",
       },
       {
-        Alias: "LUKE",
+        alias: "LUKE",
         country: "USA",
       },
       {
-        Alias: "LUKIDELUXE",
+        alias: "LUKIDELUXE",
         country: "AUT",
       },
       {
-        Alias: "LUMINIA",
+        alias: "LUMINIA",
         country: "FRA",
       },
       {
-        Alias: "M.GUZMAN",
+        alias: "M.GUZMAN",
         country: "USA",
       },
       {
-        Alias: "MACK (CANADA)",
+        alias: "MACK (CANADA)",
         country: "CAN",
       },
       {
-        Alias: "MACKIMATIONS",
+        alias: "MACKIMATIONS",
         country: "USA",
       },
       {
-        Alias: "MADDY",
+        alias: "MADDY",
         country: "USA",
       },
       {
-        Alias: "MAEDHROS",
+        alias: "MAEDHROS",
         country: "ITA",
       },
       {
-        Alias: "MAI",
+        alias: "MAI",
         country: "GBEN",
       },
       {
-        Alias: "MAITREHUITIEN",
+        alias: "MAITREHUITIEN",
         country: "CAN",
       },
       {
-        Alias: "MAIWINGKOS",
+        alias: "MAIWINGKOS",
         country: "BEL",
       },
       {
-        Alias: "MAKO",
+        alias: "MAKO",
         country: "USA",
       },
       {
-        Alias: "MALAYA",
+        alias: "MALAYA",
         country: "PHI",
       },
       {
-        Alias: "MAO MAO",
+        alias: "MAO MAO",
         country: "GBR",
       },
       {
-        Alias: "MAOSHIZHONG",
+        alias: "MAOSHIZHONG",
         country: "GBR",
       },
       {
-        Alias: "MARC MAIER",
+        alias: "MARC MAIER",
         country: "GER",
       },
       {
-        Alias: "MARFRAM",
+        alias: "MARFRAM",
         country: "USA",
       },
       {
-        Alias: "MARIKH13",
+        alias: "MARIKH13",
         country: "GER",
       },
       {
-        Alias: "MARIO LAFLEUR",
+        alias: "MARIO LAFLEUR",
         country: "CAN",
       },
       {
-        Alias: "MARIUSJXN",
+        alias: "MARIUSJXN",
         country: "GER",
       },
       {
-        Alias: "MARK MIGAS",
+        alias: "MARK MIGAS",
         country: "GER",
       },
       {
-        Alias: "MARLE",
+        alias: "MARLE",
         country: "USA",
       },
       {
-        Alias: "MARTIN_NOR",
+        alias: "MARTIN_NOR",
         country: "NOR",
       },
       {
-        Alias: "MARTS",
+        alias: "MARTS",
         country: "CAN",
       },
       {
-        Alias: "MARY POWELL",
+        alias: "MARY POWELL",
         country: "USA",
       },
       {
-        Alias: "MATGAMBATTO",
+        alias: "MATGAMBATTO",
         country: "BRA",
       },
       {
-        Alias: "MATT HOLLAND",
+        alias: "MATT HOLLAND",
         country: "USA",
       },
       {
-        Alias: "MATT MARTIN",
+        alias: "MATT MARTIN",
         country: "USA",
       },
       {
-        Alias: "MATT S.C.",
+        alias: "MATT S.C.",
         country: "USA",
       },
       {
-        Alias: "MATT_USA",
+        alias: "MATT_USA",
         country: "USA",
       },
       {
-        Alias: "MAURICESY",
+        alias: "MAURICESY",
         country: "GER",
       },
       {
-        Alias: "MAX",
+        alias: "MAX",
         country: "GBR",
       },
       {
-        Alias: "MCKICKASS",
+        alias: "MCKICKASS",
         country: "USA",
       },
       {
-        Alias: "MCMUFFIN",
+        alias: "MCMUFFIN",
         country: "NOR",
       },
       {
-        Alias: "MCPORKCHOP",
+        alias: "MCPORKCHOP",
         country: "USA",
       },
       {
-        Alias: "MDSKLR",
+        alias: "MDSKLR",
         country: "CAN",
       },
       {
-        Alias: "MECEX",
+        alias: "MECEX",
         country: "ESP",
       },
       {
-        Alias: "MEESY176",
+        alias: "MEESY176",
         country: "USA",
       },
       {
-        Alias: "MEG",
+        alias: "MEG",
         country: "XXX",
       },
       {
-        Alias: "MEGARETROMAN",
+        alias: "MEGARETROMAN",
         country: "USA",
       },
       {
-        Alias: "MELHK",
+        alias: "MELHK",
         country: "NED",
       },
       {
-        Alias: "MELISSA",
+        alias: "MELISSA",
         country: "CAN",
       },
       {
-        Alias: "MELKRISTA",
+        alias: "MELKRISTA",
         country: "XXX",
       },
       {
-        Alias: "MELONSODA",
+        alias: "MELONSODA",
         country: "PHI",
       },
       {
-        Alias: "MEMORIA",
+        alias: "MEMORIA",
         country: "USA",
       },
       {
-        Alias: "MENDION",
+        alias: "MENDION",
         country: "ARG",
       },
       {
-        Alias: "MENTAI",
+        alias: "MENTAI",
         country: "INA",
       },
       {
-        Alias: "MEOWMIXMIX",
+        alias: "MEOWMIXMIX",
         country: "USA",
       },
       {
-        Alias: "METALBEAST",
+        alias: "METALBEAST",
         country: "USA",
       },
       {
-        Alias: "MI5MEFAIL",
+        alias: "MI5MEFAIL",
         country: "CAN",
       },
       {
-        Alias: "MICETRO",
+        alias: "MICETRO",
         country: "USA",
       },
       {
-        Alias: "MICHELLE",
+        alias: "MICHELLE",
         country: "HKG",
       },
       {
-        Alias: "MICHU",
+        alias: "MICHU",
         country: "POL",
       },
       {
-        Alias: "MICROBLIZZ",
+        alias: "MICROBLIZZ",
         country: "CAN",
       },
       {
-        Alias: "MICWOJ",
+        alias: "MICWOJ",
         country: "POL",
       },
       {
-        Alias: "MIKA_USA",
+        alias: "MIKA_USA",
         country: "USA",
       },
       {
-        Alias: "MIKE H",
+        alias: "MIKE H",
         country: "USA",
       },
       {
-        Alias: "MIKE I",
+        alias: "MIKE I",
         country: "USA",
       },
       {
-        Alias: "MIKE OWEN",
+        alias: "MIKE OWEN",
         country: "USA",
       },
       {
-        Alias: "MIKE WINZINEK",
+        alias: "MIKE WINZINEK",
         country: "USA",
       },
       {
-        Alias: "MIKE_CAN",
+        alias: "MIKE_CAN",
         country: "CAN",
       },
       {
-        Alias: "MILE",
+        alias: "MILE",
         country: "ITA",
       },
       {
-        Alias: "MILO",
+        alias: "MILO",
         country: "USA",
       },
       {
-        Alias: "MINERTYLER",
+        alias: "MINERTYLER",
         country: "USA",
       },
       {
-        Alias: "MINGO",
+        alias: "MINGO",
         country: "USA",
       },
       {
-        Alias: "MINGSHIN",
+        alias: "MINGSHIN",
         country: "SGP",
       },
       {
-        Alias: "MIRCRON",
+        alias: "MIRCRON",
         country: "PHI",
       },
       {
-        Alias: "MISSCLICKER",
+        alias: "MISSCLICKER",
         country: "RUS",
       },
       {
-        Alias: "MISTEC43",
+        alias: "MISTEC43",
         country: "USA",
       },
       {
-        Alias: "MISTETRIS",
+        alias: "MISTETRIS",
         country: "VIE",
       },
       {
-        Alias: "MITCHELL",
+        alias: "MITCHELL",
         country: "CAN",
       },
       {
-        Alias: "MITHICAL9",
+        alias: "MITHICAL9",
         country: "CAN",
       },
       {
-        Alias: "MITOLEX",
+        alias: "MITOLEX",
         country: "GER",
       },
       {
-        Alias: "MLECZAK",
+        alias: "MLECZAK",
         country: "POL",
       },
       {
-        Alias: "MOHAMMAD",
+        alias: "MOHAMMAD",
         country: "PSE",
       },
       {
-        Alias: "MOJA",
+        alias: "MOJA",
         country: "GER",
       },
       {
-        Alias: "MONDAY",
+        alias: "MONDAY",
         country: "COL",
       },
       {
-        Alias: "MONKEY YO",
+        alias: "MONKEY YO",
         country: "IRL",
       },
       {
-        Alias: "MonthlyTetris",
+        alias: "MonthlyTetris",
         country: "XXX",
       },
       {
-        Alias: "MOODEUCE",
+        alias: "MOODEUCE",
         country: "AUS",
       },
       {
-        Alias: "MORELANDO",
+        alias: "MORELANDO",
         country: "USA",
       },
       {
-        Alias: "MORKOS",
+        alias: "MORKOS",
         country: "FIN",
       },
       {
-        Alias: "MOULIS64",
+        alias: "MOULIS64",
         country: "GRE",
       },
       {
-        Alias: "MOVIN",
+        alias: "MOVIN",
         country: "HKG",
       },
       {
-        Alias: "MR_CLYDE",
+        alias: "MR_CLYDE",
         country: "USA",
       },
       {
-        Alias: "MRDUGGY",
+        alias: "MRDUGGY",
         country: "CAN",
       },
       {
-        Alias: "MRFAQ",
+        alias: "MRFAQ",
         country: "ARG",
       },
       {
-        Alias: "MRHELDIN",
+        alias: "MRHELDIN",
         country: "BRA",
       },
       {
-        Alias: "MRSHADOW",
+        alias: "MRSHADOW",
         country: "GBR",
       },
       {
-        Alias: "MRSWARTT",
+        alias: "MRSWARTT",
         country: "DOM",
       },
       {
-        Alias: "MS_DROP",
+        alias: "MS_DROP",
         country: "USA",
       },
       {
-        Alias: "MSON",
+        alias: "MSON",
         country: "HKG",
       },
       {
-        Alias: "MT",
+        alias: "MT",
         country: "AUS",
       },
       {
-        Alias: "MUTIGION",
+        alias: "MUTIGION",
         country: "ESP",
       },
       {
-        Alias: "MUUNAS",
+        alias: "MUUNAS",
         country: "USA",
       },
       {
-        Alias: "MWK",
+        alias: "MWK",
         country: "POL",
       },
       {
-        Alias: "MYLES",
+        alias: "MYLES",
         country: "USA",
       },
       {
-        Alias: "MYLES (ROLL)",
+        alias: "MYLES (ROLL)",
         country: "USA",
       },
       {
-        Alias: "NADA",
+        alias: "NADA",
         country: "CAN",
       },
       {
-        Alias: "NADERAGE",
+        alias: "NADERAGE",
         country: "USA",
       },
       {
-        Alias: "NANSUCHAO",
+        alias: "NANSUCHAO",
         country: "ITA",
       },
       {
-        Alias: "NATHAN GRAYBEAL",
+        alias: "NATHAN GRAYBEAL",
         country: "USA",
       },
       {
-        Alias: "NATHAN Y",
+        alias: "NATHAN Y",
         country: "AUS",
       },
       {
-        Alias: "NAVIA",
+        alias: "NAVIA",
         country: "USA",
       },
       {
-        Alias: "NDDK",
+        alias: "NDDK",
         country: "USA",
       },
       {
-        Alias: "NEMESIS",
+        alias: "NEMESIS",
         country: "AUT",
       },
       {
-        Alias: "NENU",
+        alias: "NENU",
         country: "INA",
       },
       {
-        Alias: "NEOTRISSS",
+        alias: "NEOTRISSS",
         country: "FRA",
       },
       {
-        Alias: "NERDTHEBOX",
+        alias: "NERDTHEBOX",
         country: "XXX",
       },
       {
-        Alias: "NERDZZZZZ",
+        alias: "NERDZZZZZ",
         country: "HKG",
       },
       {
-        Alias: "NESCARD",
+        alias: "NESCARD",
         country: "CAN",
       },
       {
-        Alias: "NEURO630",
+        alias: "NEURO630",
         country: "USA",
       },
       {
-        Alias: "NEVANATOR",
+        alias: "NEVANATOR",
         country: "USA",
       },
       {
-        Alias: "NEWPLAYER",
+        alias: "NEWPLAYER",
         country: "XXX",
       },
       {
-        Alias: "NFUTURIST",
+        alias: "NFUTURIST",
         country: "RUS",
       },
       {
-        Alias: "NGC MAN",
+        alias: "NGC MAN",
         country: "USA",
       },
       {
-        Alias: "NICK (MANITOBA)",
+        alias: "NICK (MANITOBA)",
         country: "CAN",
       },
       {
-        Alias: "NICKFURY",
+        alias: "NICKFURY",
         country: "CAN",
       },
       {
-        Alias: "NICLINN",
+        alias: "NICLINN",
         country: "ROC",
       },
       {
-        Alias: "NICOLA",
+        alias: "NICOLA",
         country: "HKG",
       },
       {
-        Alias: "NIGHT",
+        alias: "NIGHT",
         country: "CAN",
       },
       {
-        Alias: "NIIWO",
+        alias: "NIIWO",
         country: "USA",
       },
       {
-        Alias: "NINER80",
+        alias: "NINER80",
         country: "USA",
       },
       {
-        Alias: "NISHI",
+        alias: "NISHI",
         country: "POL",
       },
       {
-        Alias: "NN29",
+        alias: "NN29",
         country: "USA",
       },
       {
-        Alias: "NOEL",
+        alias: "NOEL",
         country: "USA",
       },
       {
-        Alias: "NOLAN",
+        alias: "NOLAN",
         country: "USA",
       },
       {
-        Alias: "NOMARCH",
+        alias: "NOMARCH",
         country: "USA",
       },
       {
-        Alias: "NOMORI",
+        alias: "NOMORI",
         country: "BRA",
       },
       {
-        Alias: "NOODLE",
+        alias: "NOODLE",
         country: "AUS",
       },
       {
-        Alias: "NOQTURN",
+        alias: "NOQTURN",
         country: "CAN",
       },
       {
-        Alias: "NORTHING",
+        alias: "NORTHING",
         country: "NED",
       },
       {
-        Alias: "NOSKCAJ",
+        alias: "NOSKCAJ",
         country: "AUS",
       },
       {
-        Alias: "NOSSIJEV",
+        alias: "NOSSIJEV",
         country: "ITA",
       },
       {
-        Alias: "NOTOBIII",
+        alias: "NOTOBIII",
         country: "USA",
       },
       {
-        Alias: "NOVAWOLF",
+        alias: "NOVAWOLF",
         country: "USA",
       },
       {
-        Alias: "NOWI",
+        alias: "NOWI",
         country: "MEX",
       },
       {
-        Alias: "NOZTROM",
+        alias: "NOZTROM",
         country: "USA",
       },
       {
-        Alias: "NTD1928",
+        alias: "NTD1928",
         country: "VIE",
       },
       {
-        Alias: "OBELEX",
+        alias: "OBELEX",
         country: "FRA",
       },
       {
-        Alias: "ODINNLOGI",
+        alias: "ODINNLOGI",
         country: "ISL",
       },
       {
-        Alias: "OEUFMEANSEGG",
+        alias: "OEUFMEANSEGG",
         country: "USA",
       },
       {
-        Alias: "OFFWO",
+        alias: "OFFWO",
         country: "GBR",
       },
       {
-        Alias: "OGLOP",
+        alias: "OGLOP",
         country: "USA",
       },
       {
-        Alias: "OHAY",
+        alias: "OHAY",
         country: "GBR",
       },
       {
-        Alias: "OKTOPUSE",
+        alias: "OKTOPUSE",
         country: "USA",
       },
       {
-        Alias: "OLDTAPPER",
+        alias: "OLDTAPPER",
         country: "BRA",
       },
       {
-        Alias: "OMIO",
+        alias: "OMIO",
         country: "CAN",
       },
       {
-        Alias: "ONLYMX13",
+        alias: "ONLYMX13",
         country: "USA",
       },
       {
-        Alias: "OOFED",
+        alias: "OOFED",
         country: "GRE",
       },
       {
-        Alias: "OOFIE",
+        alias: "OOFIE",
         country: "VIE",
       },
       {
-        Alias: "OPAUX",
+        alias: "OPAUX",
         country: "USA",
       },
       {
-        Alias: "ORBANOV",
+        alias: "ORBANOV",
         country: "POR",
       },
       {
-        Alias: "ORUCS",
+        alias: "ORUCS",
         country: "USA",
       },
       {
-        Alias: "OSCAR",
+        alias: "OSCAR",
         country: "USA",
       },
       {
-        Alias: "OUTCAST",
+        alias: "OUTCAST",
         country: "GER",
       },
       {
-        Alias: "OWCA",
+        alias: "OWCA",
         country: "POL",
       },
       {
-        Alias: "OWEN",
+        alias: "OWEN",
         country: "USA",
       },
       {
-        Alias: "PACKIE",
+        alias: "PACKIE",
         country: "USA",
       },
       {
-        Alias: "PACO",
+        alias: "PACO",
         country: "USA",
       },
       {
-        Alias: "PALAO",
+        alias: "PALAO",
         country: "BRA",
       },
       {
-        Alias: "PANDABEAR314",
+        alias: "PANDABEAR314",
         country: "USA",
       },
       {
-        Alias: "PANQUEQUEQUE",
+        alias: "PANQUEQUEQUE",
         country: "USA",
       },
       {
-        Alias: "PARADOINK",
+        alias: "PARADOINK",
         country: "USA",
       },
       {
-        Alias: "PAT",
+        alias: "PAT",
         country: "USA",
       },
       {
-        Alias: "PAT G",
+        alias: "PAT G",
         country: "AUS",
       },
       {
-        Alias: "PATRICK NYFFELER",
+        alias: "PATRICK NYFFELER",
         country: "USA",
       },
       {
-        Alias: "PAUL FUJITA",
+        alias: "PAUL FUJITA",
         country: "USA",
       },
       {
-        Alias: "PAUL YEO",
+        alias: "PAUL YEO",
         country: "SGP",
       },
       {
-        Alias: "PAULISTER",
+        alias: "PAULISTER",
         country: "GRE",
       },
       {
-        Alias: "PEEKAYRIC",
+        alias: "PEEKAYRIC",
         country: "USA",
       },
       {
-        Alias: "PENGUINPANIC",
+        alias: "PENGUINPANIC",
         country: "GBR",
       },
       {
-        Alias: "PEPE",
+        alias: "PEPE",
         country: "ARG",
       },
       {
-        Alias: "PETER (CANADA)",
+        alias: "PETER (CANADA)",
         country: "CAN",
       },
       {
-        Alias: "PETER B",
+        alias: "PETER B",
         country: "USA",
       },
       {
-        Alias: "PETER NG",
+        alias: "PETER NG",
         country: "HKG",
       },
       {
-        Alias: "PEYTON",
+        alias: "PEYTON",
         country: "USA",
       },
       {
-        Alias: "PHAMTOM",
+        alias: "PHAMTOM",
         country: "USA",
       },
       {
-        Alias: "PICKLE",
+        alias: "PICKLE",
         country: "USA",
       },
       {
-        Alias: "PIEPUSHER",
+        alias: "PIEPUSHER",
         country: "USA",
       },
       {
-        Alias: "PIKASTAR",
+        alias: "PIKASTAR",
         country: "KOR",
       },
       {
-        Alias: "PINILLAR",
+        alias: "PINILLAR",
         country: "COL",
       },
       {
-        Alias: "PISSARSE",
+        alias: "PISSARSE",
         country: "GBR",
       },
       {
-        Alias: "PIW",
+        alias: "PIW",
         country: "XXX",
       },
       {
-        Alias: "PIXELANDY",
+        alias: "PIXELANDY",
         country: "USA",
       },
       {
-        Alias: "PIXELATC",
+        alias: "PIXELATC",
         country: "THA",
       },
       {
-        Alias: "PJ",
+        alias: "PJ",
         country: "BRA",
       },
       {
-        Alias: "PJ290",
+        alias: "PJ290",
         country: "USA",
       },
       {
-        Alias: "PKD",
+        alias: "PKD",
         country: "CAN",
       },
       {
-        Alias: "PLO",
+        alias: "PLO",
         country: "POR",
       },
       {
-        Alias: "PLUTO",
+        alias: "PLUTO",
         country: "USA",
       },
       {
-        Alias: "PMYA",
+        alias: "PMYA",
         country: "GBR",
       },
       {
-        Alias: "POET13",
+        alias: "POET13",
         country: "GER",
       },
       {
-        Alias: "POKE",
+        alias: "POKE",
         country: "ROC",
       },
       {
-        Alias: "POKEMONFAN",
+        alias: "POKEMONFAN",
         country: "USA",
       },
       {
-        Alias: "POKENERD",
+        alias: "POKENERD",
         country: "KOR",
       },
       {
-        Alias: "POLICYCHANGES",
+        alias: "POLICYCHANGES",
         country: "USA",
       },
       {
-        Alias: "POLIDON",
+        alias: "POLIDON",
         country: "USA",
       },
       {
-        Alias: "POLLO",
+        alias: "POLLO",
         country: "MEX",
       },
       {
-        Alias: "POO_DIEPIO",
+        alias: "POO_DIEPIO",
         country: "USA",
       },
       {
-        Alias: "POOCHY",
+        alias: "POOCHY",
         country: "USA",
       },
       {
-        Alias: "POOPYOLDHAG",
+        alias: "POOPYOLDHAG",
         country: "NZL",
       },
       {
-        Alias: "PORTERRICHTER",
+        alias: "PORTERRICHTER",
         country: "USA",
       },
       {
-        Alias: "POTATOSEAN",
+        alias: "POTATOSEAN",
         country: "USA",
       },
       {
-        Alias: "POULFA",
+        alias: "POULFA",
         country: "GER",
       },
       {
-        Alias: "POWERNIPS",
+        alias: "POWERNIPS",
         country: "USA",
       },
       {
-        Alias: "POWERSLIDE",
+        alias: "POWERSLIDE",
         country: "USA",
       },
       {
-        Alias: "PRETZEL",
+        alias: "PRETZEL",
         country: "CAN",
       },
       {
-        Alias: "PRINCE FLUFFY",
+        alias: "PRINCE FLUFFY",
         country: "USA",
       },
       {
-        Alias: "PROCYON",
+        alias: "PROCYON",
         country: "FRA",
       },
       {
-        Alias: "PROFESSOR_L",
+        alias: "PROFESSOR_L",
         country: "USA",
       },
       {
-        Alias: "GUARDIANPSYCHO",
+        alias: "GUARDIANPSYCHO",
         country: "USA",
       },
       {
-        Alias: "PUMIS",
+        alias: "PUMIS",
         country: "SWE",
       },
       {
-        Alias: "PUMMYZOI",
+        alias: "PUMMYZOI",
         country: "USA",
       },
       {
-        Alias: "PUMPYHEART",
+        alias: "PUMPYHEART",
         country: "USA",
       },
       {
-        Alias: "PUPPYBALL",
+        alias: "PUPPYBALL",
         country: "USA",
       },
       {
-        Alias: "PYREK",
+        alias: "PYREK",
         country: "POL",
       },
       {
-        Alias: "QOMBAT",
+        alias: "QOMBAT",
         country: "RUS",
       },
       {
-        Alias: "QUAID",
+        alias: "QUAID",
         country: "USA",
       },
       {
-        Alias: "QUETRISTE",
+        alias: "QUETRISTE",
         country: "USA",
       },
       {
-        Alias: "RADMIR",
+        alias: "RADMIR",
         country: "RUS",
       },
       {
-        Alias: "RAGEROD",
+        alias: "RAGEROD",
         country: "XXX",
       },
       {
-        Alias: "RAHMATIONS",
+        alias: "RAHMATIONS",
         country: "USA",
       },
       {
-        Alias: "RAIKOURDR",
+        alias: "RAIKOURDR",
         country: "USA",
       },
       {
-        Alias: "RAIN",
+        alias: "RAIN",
         country: "USA",
       },
       {
-        Alias: "RAINBOWW",
+        alias: "RAINBOWW",
         country: "USA",
       },
       {
-        Alias: "RAMCHOP",
+        alias: "RAMCHOP",
         country: "JPN",
       },
       {
-        Alias: "RAPTA",
+        alias: "RAPTA",
         country: "GER",
       },
       {
-        Alias: "RARESIX",
+        alias: "RARESIX",
         country: "GBR",
       },
       {
-        Alias: "RAUL",
+        alias: "RAUL",
         country: "USA",
       },
       {
-        Alias: "RCDRONE",
+        alias: "RCDRONE",
         country: "USA",
       },
       {
-        Alias: "REALLYSATCH",
+        alias: "REALLYSATCH",
         country: "PHI",
       },
       {
-        Alias: "REDREOICY",
+        alias: "REDREOICY",
         country: "USA",
       },
       {
-        Alias: "REDSHURT",
+        alias: "REDSHURT",
         country: "USA",
       },
       {
-        Alias: "REDSTONE",
+        alias: "REDSTONE",
         country: "AUS",
       },
       {
-        Alias: "REED",
+        alias: "REED",
         country: "USA",
       },
       {
-        Alias: "REKU314",
+        alias: "REKU314",
         country: "USA",
       },
       {
-        Alias: "REMAININGS",
+        alias: "REMAININGS",
         country: "CAN",
       },
       {
-        Alias: "REMMEDY",
+        alias: "REMMEDY",
         country: "NZL",
       },
       {
-        Alias: "REMMY",
+        alias: "REMMY",
         country: "CAN",
       },
       {
-        Alias: "RENSUCHAN",
+        alias: "RENSUCHAN",
         country: "USA",
       },
       {
-        Alias: "RESTINGZZZ",
+        alias: "RESTINGZZZ",
         country: "USA",
       },
       {
-        Alias: "RETRORIDER",
+        alias: "RETRORIDER",
         country: "SGP",
       },
       {
-        Alias: "REVUP",
+        alias: "REVUP",
         country: "USA",
       },
       {
-        Alias: "REXION",
+        alias: "REXION",
         country: "AUS",
       },
       {
-        Alias: "REYKON",
+        alias: "REYKON",
         country: "USA",
       },
       {
-        Alias: "RF3",
+        alias: "RF3",
         country: "ROC",
       },
       {
-        Alias: "RGGLENNON",
+        alias: "RGGLENNON",
         country: "USA",
       },
       {
-        Alias: "RIB",
+        alias: "RIB",
         country: "GBR",
       },
       {
-        Alias: "RICCARDO",
+        alias: "RICCARDO",
         country: "ITA",
       },
       {
-        Alias: "RICEYRICE",
+        alias: "RICEYRICE",
         country: "SGP",
       },
       {
-        Alias: "RICHARD",
+        alias: "RICHARD",
         country: "GBR",
       },
       {
-        Alias: "RICHARD WOLF VI",
+        alias: "RICHARD WOLF VI",
         country: "COL",
       },
       {
-        Alias: "RICKFERD",
+        alias: "RICKFERD",
         country: "AUS",
       },
       {
-        Alias: "RIGEL PEARCE",
+        alias: "RIGEL PEARCE",
         country: "USA",
       },
       {
-        Alias: "RILEY",
+        alias: "RILEY",
         country: "SGP",
       },
       {
-        Alias: "RMGBREAD",
+        alias: "RMGBREAD",
         country: "USA",
       },
       {
-        Alias: "ROAVIN",
+        alias: "ROAVIN",
         country: "GER",
       },
       {
-        Alias: "ROBIN MIHARA",
+        alias: "ROBIN MIHARA",
         country: "USA",
       },
       {
-        Alias: "ROCCORICCI",
+        alias: "ROCCORICCI",
         country: "NED",
       },
       {
-        Alias: "RODIOS",
+        alias: "RODIOS",
         country: "MEX",
       },
       {
-        Alias: "ROKUICHI",
+        alias: "ROKUICHI",
         country: "JPN",
       },
       {
-        Alias: "RONCLI",
+        alias: "RONCLI",
         country: "USA",
       },
       {
-        Alias: "RONSTER",
+        alias: "RONSTER",
         country: "GBR",
       },
       {
-        Alias: "ROO",
+        alias: "ROO",
         country: "AUS",
       },
       {
-        Alias: "ROOSTR",
+        alias: "ROOSTR",
         country: "CAN",
       },
       {
-        Alias: "RORRI_M",
+        alias: "RORRI_M",
         country: "USA",
       },
       {
-        Alias: "RORY",
+        alias: "RORY",
         country: "MEX",
       },
       {
-        Alias: "ROSS",
+        alias: "ROSS",
         country: "AUS",
       },
       {
-        Alias: "ROY",
+        alias: "ROY",
         country: "GBR",
       },
       {
-        Alias: "ROY (OHIO)",
+        alias: "ROY (OHIO)",
         country: "USA",
       },
       {
-        Alias: "ROYSTRANG",
+        alias: "ROYSTRANG",
         country: "ITA",
       },
       {
-        Alias: "RUINS",
+        alias: "RUINS",
         country: "USA",
       },
       {
-        Alias: "RURCZAK",
+        alias: "RURCZAK",
         country: "POL",
       },
       {
-        Alias: "RVP",
+        alias: "RVP",
         country: "BEL",
       },
       {
-        Alias: "RY",
+        alias: "RY",
         country: "AUS",
       },
       {
-        Alias: "RYAN B",
+        alias: "RYAN B",
         country: "AUS",
       },
       {
-        Alias: "RYAN L",
+        alias: "RYAN L",
         country: "CAN",
       },
       {
-        Alias: "RYAN RITCHIE",
+        alias: "RYAN RITCHIE",
         country: "USA",
       },
       {
-        Alias: "RYEN",
+        alias: "RYEN",
         country: "USA",
       },
       {
-        Alias: "RYOSOSTO",
+        alias: "RYOSOSTO",
         country: "VIE",
       },
       {
-        Alias: "SABLEN",
+        alias: "SABLEN",
         country: "USA",
       },
       {
-        Alias: "SAKURION",
+        alias: "SAKURION",
         country: "GER",
       },
       {
-        Alias: "SALMONTERIYAKI",
+        alias: "SALMONTERIYAKI",
         country: "GBR",
       },
       {
-        Alias: "SALTEDSOFA",
+        alias: "SALTEDSOFA",
         country: "CAN",
       },
       {
-        Alias: "SALVOLC",
+        alias: "SALVOLC",
         country: "GER",
       },
       {
-        Alias: "SAM FINCH",
+        alias: "SAM FINCH",
         country: "USA",
       },
       {
-        Alias: "SAM PARRY",
+        alias: "SAM PARRY",
         country: "USA",
       },
       {
-        Alias: "SAMANTHA",
+        alias: "SAMANTHA",
         country: "GBR",
       },
       {
-        Alias: "SAMTHESPEEDRUNNER",
+        alias: "SAMTHESPEEDRUNNER",
         country: "BEL",
       },
       {
-        Alias: "SAMYS",
+        alias: "SAMYS",
         country: "CAN",
       },
       {
-        Alias: "SANTOS",
+        alias: "SANTOS",
         country: "ARG",
       },
       {
-        Alias: "SASSYFISH",
+        alias: "SASSYFISH",
         country: "USA",
       },
       {
-        Alias: "SATURNIC",
+        alias: "SATURNIC",
         country: "ARG",
       },
       {
-        Alias: "SAUCE",
+        alias: "SAUCE",
         country: "PHI",
       },
       {
-        Alias: "SAVECATZ",
+        alias: "SAVECATZ",
         country: "USA",
       },
       {
-        Alias: "SAYMYNAME",
+        alias: "SAYMYNAME",
         country: "USA",
       },
       {
-        Alias: "SCAMPER9",
+        alias: "SCAMPER9",
         country: "GBR",
       },
       {
-        Alias: "SCHA",
+        alias: "SCHA",
         country: "USA",
       },
       {
-        Alias: "SCHOOLMASTER",
+        alias: "SCHOOLMASTER",
         country: "USA",
       },
       {
-        Alias: "SCOOPMAN",
+        alias: "SCOOPMAN",
         country: "GER",
       },
       {
-        Alias: "SCOTTOBOZO",
+        alias: "SCOTTOBOZO",
         country: "USA",
       },
       {
-        Alias: "SCOVIS",
+        alias: "SCOVIS",
         country: "USA",
       },
       {
-        Alias: "SEALIO",
+        alias: "SEALIO",
         country: "USA",
       },
       {
-        Alias: "SEALRV",
+        alias: "SEALRV",
         country: "GBR",
       },
       {
-        Alias: "SEAN",
+        alias: "SEAN",
         country: "SGP",
       },
       {
-        Alias: "SEAN MILLER",
+        alias: "SEAN MILLER",
         country: "USA",
       },
       {
-        Alias: "SEAN1743",
+        alias: "SEAN1743",
         country: "USA",
       },
       {
-        Alias: "SEANONTWITCH",
+        alias: "SEANONTWITCH",
         country: "JPN",
       },
       {
-        Alias: "SEMILOGO",
+        alias: "SEMILOGO",
         country: "USA",
       },
       {
-        Alias: "SEUNGO",
+        alias: "SEUNGO",
         country: "KOR",
       },
       {
-        Alias: "SHADOWGUY",
+        alias: "SHADOWGUY",
         country: "DEN",
       },
       {
-        Alias: "SHAKENBEL",
+        alias: "SHAKENBEL",
         country: "RUS",
       },
       {
-        Alias: "SHAKIL ASSI",
+        alias: "SHAKIL ASSI",
         country: "USA",
       },
       {
-        Alias: "SHANNON",
+        alias: "SHANNON",
         country: "AUS",
       },
       {
-        Alias: "SHARKY",
+        alias: "SHARKY",
         country: "USA",
       },
       {
-        Alias: "SHAWN SCHWARTZ",
+        alias: "SHAWN SCHWARTZ",
         country: "USA",
       },
       {
-        Alias: "SHENG",
+        alias: "SHENG",
         country: "USA",
       },
       {
-        Alias: "SHININGFACE",
+        alias: "SHININGFACE",
         country: "USA",
       },
       {
-        Alias: "SHQDWNIGHT",
+        alias: "SHQDWNIGHT",
         country: "USA",
       },
       {
-        Alias: "SHUICHI",
+        alias: "SHUICHI",
         country: "GER",
       },
       {
-        Alias: "SHULPHURIC",
+        alias: "SHULPHURIC",
         country: "ARG",
       },
       {
-        Alias: "SIDESHOW_BOB",
+        alias: "SIDESHOW_BOB",
         country: "USA",
       },
       {
-        Alias: "SIDNEV",
+        alias: "SIDNEV",
         country: "NED",
       },
       {
-        Alias: "SILVER G",
+        alias: "SILVER G",
         country: "CAN",
       },
       {
-        Alias: "SIMON",
+        alias: "SIMON",
         country: "CAN",
       },
       {
-        Alias: "SINEWAVE",
+        alias: "SINEWAVE",
         country: "GER",
       },
       {
-        Alias: "SIRKINGV",
+        alias: "SIRKINGV",
         country: "CAN",
       },
       {
-        Alias: "SIRMASER",
+        alias: "SIRMASER",
         country: "NED",
       },
       {
-        Alias: "SIXFOUR",
+        alias: "SIXFOUR",
         country: "GBR",
       },
       {
-        Alias: "SKAILORD",
+        alias: "SKAILORD",
         country: "USA",
       },
       {
-        Alias: "SKALEJANDRO",
+        alias: "SKALEJANDRO",
         country: "MEX",
       },
       {
-        Alias: "SKANBALL",
+        alias: "SKANBALL",
         country: "INA",
       },
       {
-        Alias: "SKIB",
+        alias: "SKIB",
         country: "USA",
       },
       {
-        Alias: "SKIPLOGIC",
+        alias: "SKIPLOGIC",
         country: "USA",
       },
       {
-        Alias: "SKUCI",
+        alias: "SKUCI",
         country: "CZE",
       },
       {
-        Alias: "SLACKYNESS",
+        alias: "SLACKYNESS",
         country: "RUS",
       },
       {
-        Alias: "SLAYER69",
+        alias: "SLAYER69",
         country: "USA",
       },
       {
-        Alias: "SMOLJORDAN",
+        alias: "SMOLJORDAN",
         country: "USA",
       },
       {
-        Alias: "SMOOTH MOTION",
+        alias: "SMOOTH MOTION",
         country: "USA",
       },
       {
-        Alias: "SNAILIEN",
+        alias: "SNAILIEN",
         country: "CAN",
       },
       {
-        Alias: "SNOWGOLFGAL",
+        alias: "SNOWGOLFGAL",
         country: "USA",
       },
       {
-        Alias: "SNUF",
+        alias: "SNUF",
         country: "AUS",
       },
       {
-        Alias: "SODIUM",
+        alias: "SODIUM",
         country: "USA",
       },
       {
-        Alias: "SOLOMON",
+        alias: "SOLOMON",
         country: "CAN",
       },
       {
-        Alias: "SOMALIAN",
+        alias: "SOMALIAN",
         country: "USA",
       },
       {
-        Alias: "SPEEDPERUNA",
+        alias: "SPEEDPERUNA",
         country: "FIN",
       },
       {
-        Alias: "SPIRITVET",
+        alias: "SPIRITVET",
         country: "USA",
       },
       {
-        Alias: "SPOOPYDOOPS",
+        alias: "SPOOPYDOOPS",
         country: "USA",
       },
       {
-        Alias: "SQR",
+        alias: "SQR",
         country: "JPN",
       },
       {
-        Alias: "SQUAREWAVE",
+        alias: "SQUAREWAVE",
         country: "USA",
       },
       {
-        Alias: "STACY",
+        alias: "STACY",
         country: "USA",
       },
       {
-        Alias: "STANESLOW",
+        alias: "STANESLOW",
         country: "USA",
       },
       {
-        Alias: "STATZGFX",
+        alias: "STATZGFX",
         country: "GBR",
       },
       {
-        Alias: "STEVE",
+        alias: "STEVE",
         country: "USA",
       },
       {
-        Alias: "STEVE HILL",
+        alias: "STEVE HILL",
         country: "USA",
       },
       {
-        Alias: "STEVEN HUGHES",
+        alias: "STEVEN HUGHES",
         country: "USA",
       },
       {
-        Alias: "STEVEN598",
+        alias: "STEVEN598",
         country: "CRC",
       },
       {
-        Alias: "STICK ANG",
+        alias: "STICK ANG",
         country: "MYS",
       },
       {
-        Alias: "STORMIN",
+        alias: "STORMIN",
         country: "USA",
       },
       {
-        Alias: "STRATUS",
+        alias: "STRATUS",
         country: "USA",
       },
       {
-        Alias: "STUPERFLUOUS",
+        alias: "STUPERFLUOUS",
         country: "USA",
       },
       {
-        Alias: "SUDS",
+        alias: "SUDS",
         country: "USA",
       },
       {
-        Alias: "SUMP",
+        alias: "SUMP",
         country: "AUS",
       },
       {
-        Alias: "SUNDECO",
+        alias: "SUNDECO",
         country: "USA",
       },
       {
-        Alias: "SUNNY",
+        alias: "SUNNY",
         country: "GBR",
       },
       {
-        Alias: "SUNSHINE",
+        alias: "SUNSHINE",
         country: "CAN",
       },
       {
-        Alias: "SUPERMINES",
+        alias: "SUPERMINES",
         country: "USA",
       },
       {
-        Alias: "SUPERSHOCKY",
+        alias: "SUPERSHOCKY",
         country: "USA",
       },
       {
-        Alias: "SVAVAR",
+        alias: "SVAVAR",
         country: "ISL",
       },
       {
-        Alias: "SVENCMM",
+        alias: "SVENCMM",
         country: "GER",
       },
       {
-        Alias: "SVNESTRIS",
+        alias: "SVNESTRIS",
         country: "GBR",
       },
       {
-        Alias: "SWIDR",
+        alias: "SWIDR",
         country: "POL",
       },
       {
-        Alias: "SWINEMEEPER",
+        alias: "SWINEMEEPER",
         country: "USA",
       },
       {
-        Alias: "SYNSHANE",
+        alias: "SYNSHANE",
         country: "USA",
       },
       {
-        Alias: "SZYMEN",
+        alias: "SZYMEN",
         country: "POL",
       },
       {
-        Alias: "TACOMOM",
+        alias: "TACOMOM",
         country: "USA",
       },
       {
-        Alias: "TAMARINDO",
+        alias: "TAMARINDO",
         country: "MEX",
       },
       {
-        Alias: "TAMATOMO",
+        alias: "TAMATOMO",
         country: "MYS",
       },
       {
-        Alias: "TANKIMUS",
+        alias: "TANKIMUS",
         country: "USA",
       },
       {
-        Alias: "TARA SMITH",
+        alias: "TARA SMITH",
         country: "AUS",
       },
       {
-        Alias: "TATE_MANNING",
+        alias: "TATE_MANNING",
         country: "USA",
       },
       {
-        Alias: "TAVERN",
+        alias: "TAVERN",
         country: "THA",
       },
       {
-        Alias: "TBRICKS",
+        alias: "TBRICKS",
         country: "ESP",
       },
       {
-        Alias: "TCY",
+        alias: "TCY",
         country: "SGP",
       },
       {
-        Alias: "TEBANOKU",
+        alias: "TEBANOKU",
         country: "CHI",
       },
       {
-        Alias: "TEDDAYSR",
+        alias: "TEDDAYSR",
         country: "XXX",
       },
       {
-        Alias: "TEDDYRUGBY",
+        alias: "TEDDYRUGBY",
         country: "USA",
       },
       {
-        Alias: "TEGAMECH",
+        alias: "TEGAMECH",
         country: "SWE",
       },
       {
-        Alias: "TEMPOH TETRIS",
+        alias: "TEMPOH TETRIS",
         country: "GBR",
       },
       {
-        Alias: "TERI",
+        alias: "TERI",
         country: "USA",
       },
       {
-        Alias: "TERRY PURCELL",
+        alias: "TERRY PURCELL",
         country: "USA",
       },
       {
-        Alias: "TETCHYFND",
+        alias: "TETCHYFND",
         country: "CAN",
       },
       {
-        Alias: "TETRASAURUS",
+        alias: "TETRASAURUS",
         country: "GBR",
       },
       {
-        Alias: "TETRIS LUKI",
+        alias: "TETRIS LUKI",
         country: "GER",
       },
       {
-        Alias: "TetrisGauntlet",
+        alias: "TetrisGauntlet",
         country: "XXX",
       },
       {
-        Alias: "TETRISTIME",
+        alias: "TETRISTIME",
         country: "USA",
       },
       {
-        Alias: "TETRIUM",
+        alias: "TETRIUM",
         country: "CAN",
       },
       {
-        Alias: "TETROBI",
+        alias: "TETROBI",
         country: "GER",
       },
       {
-        Alias: "THATGUYWB",
+        alias: "THATGUYWB",
         country: "FRA",
       },
       {
-        Alias: "THECHEATER",
+        alias: "THECHEATER",
         country: "ARB",
       },
       {
-        Alias: "THECTTV",
+        alias: "THECTTV",
         country: "USA",
       },
       {
-        Alias: "THEGUARDIANPM",
+        alias: "THEGUARDIANPM",
         country: "USA",
       },
       {
-        Alias: "THEJAYJAY",
+        alias: "THEJAYJAY",
         country: "GBR",
       },
       {
-        Alias: "THEKANDYKING",
+        alias: "THEKANDYKING",
         country: "USA",
       },
       {
-        Alias: "THEMISTERVALOR",
+        alias: "THEMISTERVALOR",
         country: "USA",
       },
       {
-        Alias: "THES0AP",
+        alias: "THES0AP",
         country: "USA",
       },
       {
-        Alias: "THIRSTYJACOBO",
+        alias: "THIRSTYJACOBO",
         country: "USA",
       },
       {
-        Alias: "THOM",
+        alias: "THOM",
         country: "GBR",
       },
       {
-        Alias: "THOMAS_QC",
+        alias: "THOMAS_QC",
         country: "CAN",
       },
       {
-        Alias: "THOR",
+        alias: "THOR",
         country: "USA",
       },
       {
-        Alias: "THREESTWOS",
+        alias: "THREESTWOS",
         country: "GBR",
       },
       {
-        Alias: "TIFFANY",
+        alias: "TIFFANY",
         country: "HKG",
       },
       {
-        Alias: "TILLBAKS",
+        alias: "TILLBAKS",
         country: "SWE",
       },
       {
-        Alias: "TIMELOCKED",
+        alias: "TIMELOCKED",
         country: "USA",
       },
       {
-        Alias: "TIMMYKIM",
+        alias: "TIMMYKIM",
         country: "USA",
       },
       {
-        Alias: "TIM WONG",
+        alias: "TIM WONG",
         country: "MYS",
       },
       {
-        Alias: "TING",
+        alias: "TING",
         country: "HKG",
       },
       {
-        Alias: "TIRED_RL",
+        alias: "TIRED_RL",
         country: "XXX",
       },
       {
-        Alias: "TJ",
+        alias: "TJ",
         country: "NOR",
       },
       {
-        Alias: "TOBEGH3",
+        alias: "TOBEGH3",
         country: "GER",
       },
       {
-        Alias: "TOBIAS B",
+        alias: "TOBIAS B",
         country: "CAN",
       },
       {
-        Alias: "TODD BATES",
+        alias: "TODD BATES",
         country: "AUS",
       },
       {
-        Alias: "TOM",
+        alias: "TOM",
         country: "USA",
       },
       {
-        Alias: "TOM G",
+        alias: "TOM G",
         country: "AUS",
       },
       {
-        Alias: "TOMELLO",
+        alias: "TOMELLO",
         country: "ESP",
       },
       {
-        Alias: "TOMMYDABE",
+        alias: "TOMMYDABE",
         country: "USA",
       },
       {
-        Alias: "TOMMYNTG",
+        alias: "TOMMYNTG",
         country: "USA",
       },
       {
-        Alias: "TONI",
+        alias: "TONI",
         country: "SUI",
       },
       {
-        Alias: "TORZSA",
+        alias: "TORZSA",
         country: "THA",
       },
       {
-        Alias: "TOURIST",
+        alias: "TOURIST",
         country: "GER",
       },
       {
-        Alias: "TOXICSTABS",
+        alias: "TOXICSTABS",
         country: "POR",
       },
       {
-        Alias: "TRACEYWOOO",
+        alias: "TRACEYWOOO",
         country: "USA",
       },
       {
-        Alias: "TRACTIE",
+        alias: "TRACTIE",
         country: "GER",
       },
       {
-        Alias: "TRAPZONE",
+        alias: "TRAPZONE",
         country: "USA",
       },
       {
-        Alias: "TRENT",
+        alias: "TRENT",
         country: "USA",
       },
       {
-        Alias: "TREY HARRISON",
+        alias: "TREY HARRISON",
         country: "USA",
       },
       {
-        Alias: "TRIPLEDDOT",
+        alias: "TRIPLEDDOT",
         country: "INA",
       },
       {
-        Alias: "TRISTAN",
+        alias: "TRISTAN",
         country: "SGP",
       },
       {
-        Alias: "TRISTANCAKEPAF",
+        alias: "TRISTANCAKEPAF",
         country: "INA",
       },
       {
-        Alias: "TRISTOP",
+        alias: "TRISTOP",
         country: "USA",
       },
       {
-        Alias: "TRISTOP (ROLL)",
+        alias: "TRISTOP (ROLL)",
         country: "USA",
       },
       {
-        Alias: "TRIXTR",
+        alias: "TRIXTR",
         country: "CAN",
       },
       {
-        Alias: "TRUE ENIGMA",
+        alias: "TRUE ENIGMA",
         country: "BRA",
       },
       {
-        Alias: "TSCHNECKE",
+        alias: "TSCHNECKE",
         country: "GER",
       },
       {
-        Alias: "TSTORM",
+        alias: "TSTORM",
         country: "USA",
       },
       {
-        Alias: "TT PLAYA",
+        alias: "TT PLAYA",
         country: "CAN",
       },
       {
-        Alias: "TUGI",
+        alias: "TUGI",
         country: "AUT",
       },
       {
-        Alias: "TUPPER",
+        alias: "TUPPER",
         country: "GER",
       },
       {
-        Alias: "TURO",
+        alias: "TURO",
         country: "COL",
       },
       {
-        Alias: "TURTLE",
+        alias: "TURTLE",
         country: "GBR",
       },
       {
-        Alias: "TVSSORA",
+        alias: "TVSSORA",
         country: "VIE",
       },
       {
-        Alias: "TWEAK_BEACON",
+        alias: "TWEAK_BEACON",
         country: "USA",
       },
       {
-        Alias: "TWOQUANTUMBITS",
+        alias: "TWOQUANTUMBITS",
         country: "SGP",
       },
       {
-        Alias: "TWQC",
+        alias: "TWQC",
         country: "SGP",
       },
       {
-        Alias: "ULFORCE",
+        alias: "ULFORCE",
         country: "ARG",
       },
       {
-        Alias: "UNCLE MIKE",
+        alias: "UNCLE MIKE",
         country: "USA",
       },
       {
-        Alias: "UNDERDOG",
+        alias: "UNDERDOG",
         country: "USA",
       },
       {
-        Alias: "UNOR1GINALNAME",
+        alias: "UNOR1GINALNAME",
         country: "PHI",
       },
       {
-        Alias: "USERNAMEGOLD",
+        alias: "USERNAMEGOLD",
         country: "MKD",
       },
       {
-        Alias: "V4ECTR",
+        alias: "V4ECTR",
         country: "ITA",
       },
       {
-        Alias: "VACHETBEASTY",
+        alias: "VACHETBEASTY",
         country: "ESP",
       },
       {
-        Alias: "VACUUS",
+        alias: "VACUUS",
         country: "USA",
       },
       {
-        Alias: "VALERIE",
+        alias: "VALERIE",
         country: "SGP",
       },
       {
-        Alias: "VALERIE_MAYBE",
+        alias: "VALERIE_MAYBE",
         country: "USA",
       },
       {
-        Alias: "VANDWELLER",
+        alias: "VANDWELLER",
         country: "USA",
       },
       {
-        Alias: "VANSH",
+        alias: "VANSH",
         country: "IND",
       },
       {
-        Alias: "VELONEMO",
+        alias: "VELONEMO",
         country: "POL",
       },
       {
-        Alias: "VERNIE",
+        alias: "VERNIE",
         country: "CZE",
       },
       {
-        Alias: "VICIOUS RHUBARB",
+        alias: "VICIOUS RHUBARB",
         country: "USA",
       },
       {
-        Alias: "VIKTOR",
+        alias: "VIKTOR",
         country: "HKG",
       },
       {
-        Alias: "VIKTOR WFH",
+        alias: "VIKTOR WFH",
         country: "RUS",
       },
       {
-        Alias: "VILMAKER",
+        alias: "VILMAKER",
         country: "CHI",
       },
       {
-        Alias: "VINCE",
+        alias: "VINCE",
         country: "USA",
       },
       {
-        Alias: "VISCHER",
+        alias: "VISCHER",
         country: "USA",
       },
       {
-        Alias: "VLXX",
+        alias: "VLXX",
         country: "AZE",
       },
       {
-        Alias: "VORAP",
+        alias: "VORAP",
         country: "USA",
       },
       {
-        Alias: "WALLBANT",
+        alias: "WALLBANT",
         country: "CAN",
       },
       {
-        Alias: "WALTERMELON",
+        alias: "WALTERMELON",
         country: "USA",
       },
       {
-        Alias: "WHODIS",
+        alias: "WHODIS",
         country: "USA",
       },
       {
-        Alias: "WIDE",
+        alias: "WIDE",
         country: "AUS",
       },
       {
-        Alias: "WIKE",
+        alias: "WIKE",
         country: "USA",
       },
       {
-        Alias: "WILDBEAST",
+        alias: "WILDBEAST",
         country: "POR",
       },
       {
-        Alias: "WILL T",
+        alias: "WILL T",
         country: "AUS",
       },
       {
-        Alias: "WILLIASHATNER",
+        alias: "WILLIASHATNER",
         country: "CAN",
       },
       {
-        Alias: "WILLYB",
+        alias: "WILLYB",
         country: "CAN",
       },
       {
-        Alias: "WILMERENDO",
+        alias: "WILMERENDO",
         country: "COL",
       },
       {
-        Alias: "WINNERBIT",
+        alias: "WINNERBIT",
         country: "USA",
       },
       {
-        Alias: "WMD_88",
+        alias: "WMD_88",
         country: "USA",
       },
       {
-        Alias: "WOLFLORD",
+        alias: "WOLFLORD",
         country: "CAN",
       },
       {
-        Alias: "XAEL",
+        alias: "XAEL",
         country: "AUS",
       },
       {
-        Alias: "XARD",
+        alias: "XARD",
         country: "RUS",
       },
       {
-        Alias: "XARNAX42",
+        alias: "XARNAX42",
         country: "USA",
       },
       {
-        Alias: "XENNYLUX",
+        alias: "XENNYLUX",
         country: "COL",
       },
       {
-        Alias: "XENOPHILIUS",
+        alias: "XENOPHILIUS",
         country: "USA",
       },
       {
-        Alias: "XERMINATOR",
+        alias: "XERMINATOR",
         country: "NED",
       },
       {
-        Alias: "XERXOS",
+        alias: "XERXOS",
         country: "USA",
       },
       {
-        Alias: "XILE",
+        alias: "XILE",
         country: "ISL",
       },
       {
-        Alias: "XLINK",
+        alias: "XLINK",
         country: "GBR",
       },
       {
-        Alias: "YAMACIA",
+        alias: "YAMACIA",
         country: "FRA",
       },
       {
-        Alias: "YAMIR",
+        alias: "YAMIR",
         country: "PUR",
       },
       {
-        Alias: "YAMNY",
+        alias: "YAMNY",
         country: "POL",
       },
       {
-        Alias: "YASN",
+        alias: "YASN",
         country: "LUX",
       },
       {
-        Alias: "YEETSKEET",
+        alias: "YEETSKEET",
         country: "USA",
       },
       {
-        Alias: "YEEZY",
+        alias: "YEEZY",
         country: "USA",
       },
       {
-        Alias: "YING ZHONG",
+        alias: "YING ZHONG",
         country: "AUS",
       },
       {
-        Alias: "YMTSUBASA",
+        alias: "YMTSUBASA",
         country: "SUI",
       },
       {
-        Alias: "YOBI",
+        alias: "YOBI",
         country: "SGP",
       },
       {
-        Alias: "YOSHI I",
+        alias: "YOSHI I",
         country: "AUS",
       },
       {
-        Alias: "YURILIA",
+        alias: "YURILIA",
         country: "USA",
       },
       {
-        Alias: "YUSIF",
+        alias: "YUSIF",
         country: "AZE",
       },
       {
-        Alias: "Z_WING",
+        alias: "Z_WING",
         country: "USA",
       },
       {
-        Alias: "ZAG",
+        alias: "ZAG",
         country: "CAN",
       },
       {
-        Alias: "ZBOONEZ",
+        alias: "ZBOONEZ",
         country: "USA",
       },
       {
-        Alias: "ZEOLADE",
+        alias: "ZEOLADE",
         country: "GER",
       },
       {
-        Alias: "ZEST",
+        alias: "ZEST",
         country: "MYS",
       },
       {
-        Alias: "ZHOU YI FU",
+        alias: "ZHOU YI FU",
         country: "ROC",
       },
       {
-        Alias: "ZIPLEY",
+        alias: "ZIPLEY",
         country: "USA",
       },
       {
-        Alias: "ZUBATS",
+        alias: "ZUBATS",
         country: "USA",
       },
       {
-        Alias: "ZYDRAS",
+        alias: "ZYDRAS",
         country: "GBR",
       },
       {
-        Alias: "BRIGHTON",
+        alias: "BRIGHTON",
         country: "USA",
       },
       {
-        Alias: "JONESY",
+        alias: "JONESY",
         country: "USA",
       },
       {
-        Alias: "SELFURIAS",
+        alias: "SELFURIAS",
         country: "COL",
       },
       {
-        Alias: "TSUKI",
+        alias: "TSUKI",
         country: "JPN",
       },
       {
-        Alias: "COBALT",
+        alias: "COBALT",
         country: "USA",
       },
       {
-        Alias: "CLOCKWORKER",
+        alias: "CLOCKWORKER",
         country: "USA",
       },
       {
-        Alias: "FRENCHIESTFRIE",
+        alias: "FRENCHIESTFRIE",
         country: "USA",
       },
       {
-        Alias: "JAZON",
+        alias: "JAZON",
         country: "POL",
       },
       {
-        Alias: "MASTASZ",
+        alias: "MASTASZ",
         country: "POL",
       },
       {
-        Alias: "GRESIU",
+        alias: "GRESIU",
         country: "POL",
       },
       {
-        Alias: "ZELAZOWY",
+        alias: "ZELAZOWY",
         country: "POL",
       },
       {
-        Alias: "GRZECHOOO",
+        alias: "GRZECHOOO",
         country: "POL",
       },
       {
-        Alias: "METR",
+        alias: "METR",
         country: "POL",
       },
       {
-        Alias: "BAKADRIAN",
+        alias: "BAKADRIAN",
         country: "POL",
       },
       {
-        Alias: "WHITE MONSTER",
+        alias: "WHITE MONSTER",
         country: "POL",
       },
       {
-        Alias: "JAANUUSH",
+        alias: "JAANUUSH",
         country: "POL",
       },
       {
-        Alias: "CINEQ",
+        alias: "CINEQ",
         country: "POL",
       },
       {
-        Alias: "JEDI GRZYB",
+        alias: "JEDI GRZYB",
         country: "POL",
       },
       {
-        Alias: "GOSCIU",
+        alias: "GOSCIU",
         country: "POL",
       },
       {
-        Alias: "DON LOOZ",
+        alias: "DON LOOZ",
         country: "POL",
       },
       {
-        Alias: "DAWIDKBC",
+        alias: "DAWIDKBC",
         country: "POL",
       },
       {
-        Alias: "HUBERTUS",
+        alias: "HUBERTUS",
         country: "POL",
       },
       {
-        Alias: "RYJEC",
+        alias: "RYJEC",
         country: "POL",
       },
       {
-        Alias: "NEWCAT07",
+        alias: "NEWCAT07",
         country: "POL",
       },
       {
-        Alias: "PSASZ100",
+        alias: "PSASZ100",
         country: "POL",
       },
       {
-        Alias: "PERIDOT",
+        alias: "PERIDOT",
         country: "GBR",
       },
       {
-        Alias: "NTEK",
+        alias: "NTEK",
         country: "XXX",
       },
       {
-        Alias: "DQCLAN",
+        alias: "DQCLAN",
         country: "USA",
       },
       {
-        Alias: "IVORY",
+        alias: "IVORY",
         country: "USA",
       },
       {
-        Alias: "RETROGUY",
+        alias: "RETROGUY",
         country: "USA",
       },
       {
-        Alias: "CTBeNeLux",
+        alias: "CTBeNeLux",
         country: "XXX",
       },
       {
-        Alias: "SARGIN",
+        alias: "SARGIN",
         country: "TUR",
       },
       {
-        Alias: "JONAH",
+        alias: "JONAH",
         country: "FIN",
       },
       {
-        Alias: "PRIMERTECH",
+        alias: "PRIMERTECH",
         country: "XXX",
       },
       {
-        Alias: "MADAS",
+        alias: "MADAS",
         country: "POL",
       },
       {
-        Alias: "CHRIS JARZYNA",
+        alias: "CHRIS JARZYNA",
         country: "POL",
       },
       {
-        Alias: "KAROL M",
+        alias: "KAROL M",
         country: "POL",
       },
       {
-        Alias: "POOP_CAT",
+        alias: "POOP_CAT",
         country: "POL",
       },
       {
-        Alias: "DDUR",
+        alias: "DDUR",
         country: "POL",
       },
       {
-        Alias: "ZYILDRL",
+        alias: "ZYILDRL",
         country: "USA",
       },
       {
-        Alias: "CREEPERCRAFTYT20",
+        alias: "CREEPERCRAFTYT20",
         country: "ARG",
       },
       {
-        Alias: "GEOWOLF",
+        alias: "GEOWOLF",
         country: "NED",
       },
       {
-        Alias: "SEBASTIAN",
+        alias: "SEBASTIAN",
         country: "USA",
       },
       {
-        Alias: "SCHTOIKLE",
+        alias: "SCHTOIKLE",
         country: "USA",
       },
       {
-        Alias: "TWIFTY",
+        alias: "TWIFTY",
         country: "AUS",
       },
       {
-        Alias: "KYIRA",
+        alias: "KYIRA",
         country: "GBR",
       },
       {
-        Alias: "HIGH LVL WIZARD",
+        alias: "HIGH LVL WIZARD",
         country: "USA",
       },
       {
-        Alias: "JUNIOR",
+        alias: "JUNIOR",
         country: "USA",
       },
       {
-        Alias: "DORUK KAPTAN",
+        alias: "DORUK KAPTAN",
         country: "TUR",
       },
       {
-        Alias: "Foryst / Bakadrian",
+        alias: "Foryst / Bakadrian",
         country: "XXX",
       },
       {
-        Alias: "TetrisPoland",
+        alias: "TetrisPoland",
         country: "XXX",
       },
       {
-        Alias: "TYTRIS",
+        alias: "TYTRIS",
         country: "USA",
       },
       {
-        Alias: "SIDNEY",
+        alias: "SIDNEY",
         country: "USA",
       },
       {
-        Alias: "BLUE SCUTI",
+        alias: "BLUE SCUTI",
         country: "USA",
       },
       {
-        Alias: "MARCO",
+        alias: "MARCO",
         country: "ITA",
       },
       {
-        Alias: "BUDDY",
+        alias: "BUDDY",
         country: "KOR",
       },
       {
-        Alias: "GCS",
+        alias: "GCS",
         country: "USA",
       },
       {
-        Alias: "TAIKODUDE",
+        alias: "TAIKODUDE",
         country: "USA",
       },
       {
-        Alias: "BOATSNJOES",
+        alias: "BOATSNJOES",
         country: "USA",
       },
       {
-        Alias: "WIKIALES",
+        alias: "WIKIALES",
         country: "ESP",
       },
       {
-        Alias: "BOBBY",
+        alias: "BOBBY",
         country: "USA",
       },
       {
-        Alias: "JEPER",
+        alias: "JEPER",
         country: "NED",
       },
       {
-        Alias: "MNPuzzleLeague",
+        alias: "MNPuzzleLeague",
         country: "XXX",
       },
       {
-        Alias: "FP / GDudge",
+        alias: "FP / GDudge",
         country: "XXX",
       },
       {
-        Alias: "Świdr/Szymen",
+        alias: "Świdr/Szymen",
         country: "XXX",
       },
       {
-        Alias: "RADUX",
+        alias: "RADUX",
         country: "CHI",
       },
       {
-        Alias: "HEATER",
+        alias: "HEATER",
         country: "USA",
       },
       {
-        Alias: "ClassicTetrisTurkey",
+        alias: "ClassicTetrisTurkey",
         country: "XXX",
       },
       {
-        Alias: "CCHRISTM",
+        alias: "CCHRISTM",
         country: "USA",
       },
       {
-        Alias: "MFRERCK",
+        alias: "MFRERCK",
         country: "USA",
       },
       {
-        Alias: "ASTROPHYSICIAN",
+        alias: "ASTROPHYSICIAN",
         country: "USA",
       },
       {
-        Alias: "JAHON",
+        alias: "JAHON",
         country: "NOR",
       },
       {
-        Alias: "MAXOUTCLUB",
+        alias: "MAXOUTCLUB",
         country: "XXX",
       },
       {
-        Alias: "TYDOMINOGUY",
+        alias: "TYDOMINOGUY",
         country: "USA",
       },
       {
-        Alias: "KLYSTYR",
+        alias: "KLYSTYR",
         country: "USA",
       },
       {
-        Alias: "PINGO",
+        alias: "PINGO",
         country: "URY",
       },
       {
-        Alias: "MADPEAR",
+        alias: "MADPEAR",
         country: "USA",
       },
       {
-        Alias: "CONAN",
+        alias: "CONAN",
         country: "USA",
       },
       {
-        Alias: "SOORVIE",
+        alias: "SOORVIE",
         country: "USA",
       },
       {
-        Alias: "KRISTEN",
+        alias: "KRISTEN",
         country: "USA",
       },
       {
-        Alias: "DOODLE",
+        alias: "DOODLE",
         country: "USA",
       },
       {
-        Alias: "JED",
+        alias: "JED",
         country: "DOM",
       },
       {
-        Alias: "TWOTWOS",
+        alias: "TWOTWOS",
         country: "XXX",
       },
       {
-        Alias: "NEURALG",
+        alias: "NEURALG",
         country: "TUR",
       },
       {
-        Alias: "TNISAINT",
+        alias: "TNISAINT",
         country: "USA",
       },
       {
-        Alias: "SNOWLILYX",
+        alias: "SNOWLILYX",
         country: "XXX",
       },
       {
-        Alias: "YASIN",
+        alias: "YASIN",
         country: "TUR",
       },
       {
-        Alias: "TRISTOP (DAS)",
+        alias: "TRISTOP (DAS)",
         country: "USA",
       },
       {
-        Alias: "PIXELANDY (DAS)",
+        alias: "PIXELANDY (DAS)",
         country: "USA",
       },
       {
-        Alias: "ANID",
+        alias: "ANID",
         country: "MEX",
       },
       {
-        Alias: "HOOK",
+        alias: "HOOK",
         country: "MEX",
       },
       {
-        Alias: "DOC PI",
+        alias: "DOC PI",
         country: "USA",
       },
       {
-        Alias: "PORTALLL",
+        alias: "PORTALLL",
         country: "KAZ",
       },
       {
-        Alias: "SRB",
+        alias: "SRB",
         country: "GER",
       },
       {
-        Alias: "REI",
+        alias: "REI",
         country: "MYS",
       },
       {
-        Alias: "NESTEVE",
+        alias: "NESTEVE",
         country: "USA",
       },
       {
-        Alias: "ONEPOUNDBOBBY",
+        alias: "ONEPOUNDBOBBY",
         country: "XXX",
       },
       {
-        Alias: "RENS",
+        alias: "RENS",
         country: "USA",
       },
       {
-        Alias: "GERALD FREEMAN",
+        alias: "GERALD FREEMAN",
         country: "USA",
       },
       {
-        Alias: "GAGESGARDENS",
+        alias: "GAGESGARDENS",
         country: "XXX",
       },
       {
-        Alias: "TETRISJAZZ",
+        alias: "TETRISJAZZ",
         country: "CAN",
       },
       {
-        Alias: "VALID",
+        alias: "VALID",
         country: "USA",
       },
       {
-        Alias: "BORKEDBEAR",
+        alias: "BORKEDBEAR",
         country: "GBR",
       },
       {
-        Alias: "LIOLIO",
+        alias: "LIOLIO",
         country: "BUL",
       },
       {
-        Alias: "FLEXIUMNOVA",
+        alias: "FLEXIUMNOVA",
         country: "TUR",
       },
       {
-        Alias: "LAPISLAZULI",
+        alias: "LAPISLAZULI",
         country: "USA",
       },
       {
-        Alias: "F1PROX",
+        alias: "F1PROX",
         country: "FRA",
       },
       {
-        Alias: "BERGTROLL",
+        alias: "BERGTROLL",
         country: "FRA",
       },
       {
-        Alias: "PASTELCHARLIE",
+        alias: "PASTELCHARLIE",
         country: "USA",
       },
       {
-        Alias: "ZXVYE",
+        alias: "ZXVYE",
         country: "XXX",
       },
       {
-        Alias: "REID",
+        alias: "REID",
         country: "USA",
       },
       {
-        Alias: "ARCTICXC",
+        alias: "ARCTICXC",
         country: "USA",
       },
       {
-        Alias: "FRODO",
+        alias: "FRODO",
         country: "GBR",
       },
       {
-        Alias: "PEATTETRIS",
+        alias: "PEATTETRIS",
         country: "GER",
       },
       {
-        Alias: "NORMAL RTHJK",
+        alias: "NORMAL RTHJK",
         country: "USA",
       },
       {
-        Alias: "WORLDOBLOCKS",
+        alias: "WORLDOBLOCKS",
         country: "CAN",
       },
       {
-        Alias: "SAVOURYLOBSTER",
+        alias: "SAVOURYLOBSTER",
         country: "CAN",
       },
       {
-        Alias: "EUMELI",
+        alias: "EUMELI",
         country: "XXX",
       },
       {
-        Alias: "WDSUBIA",
+        alias: "WDSUBIA",
         country: "USA",
       },
       {
-        Alias: "HALLUCINATI",
+        alias: "HALLUCINATI",
         country: "PHI",
       },
       {
-        Alias: "MADVOX",
+        alias: "MADVOX",
         country: "GER",
       },
       {
-        Alias: "MACHIETYPEA",
+        alias: "MACHIETYPEA",
         country: "CAN",
       },
       {
-        Alias: "FELIXFELICIS",
+        alias: "FELIXFELICIS",
         country: "GER",
       },
       {
-        Alias: "ELLERYSTACKS",
+        alias: "ELLERYSTACKS",
         country: "USA",
       },
       {
-        Alias: "LAURENJESSON",
+        alias: "LAURENJESSON",
         country: "USA",
       },
       {
-        Alias: "CARELESS",
+        alias: "CARELESS",
         country: "CAN",
       },
       {
-        Alias: "ODRACHESS",
+        alias: "ODRACHESS",
         country: "ITA",
       },
       {
-        Alias: "FLASHMONGER",
+        alias: "FLASHMONGER",
         country: "CAN",
       },
       {
-        Alias: "DAWSON",
+        alias: "DAWSON",
         country: "USA",
       },
       {
-        Alias: "ZOGNORM",
+        alias: "ZOGNORM",
         country: "XXX",
       },
       {
-        Alias: "CLAW",
+        alias: "CLAW",
         country: "USA",
       },
       {
-        Alias: "",
+        alias: "",
         country: "",
       },
       {
-        Alias: "ALPHABETH",
+        alias: "ALPHABETH",
         country: "NED",
       },
       {
-        Alias: "NOAHDENG",
+        alias: "NOAHDENG",
         country: "USA",
       },
       {
-        Alias: "GORILLA",
+        alias: "GORILLA",
         country: "USA",
       },
       {
-        Alias: "STACKRABBIT",
+        alias: "STACKRABBIT",
         country: "USA",
       },
       {
-        Alias: "TRIPLE MACHINE",
+        alias: "TRIPLE MACHINE",
         country: "USA",
       },
       {
-        Alias: "CHEFGOBES",
+        alias: "CHEFGOBES",
         country: "XXX",
       },
       {
-        Alias: "TEMPHUIBIS",
+        alias: "TEMPHUIBIS",
         country: "GBR",
       },
       {
-        Alias: "ZYXIA",
+        alias: "ZYXIA",
         country: "XXX",
       },
       {
-        Alias: "MOON",
+        alias: "MOON",
         country: "XXX",
       },
       {
-        Alias: "MATT M (MIDWEST)",
+        alias: "MATT M (MIDWEST)",
         country: "USA",
       },
       {
-        Alias: "PETER W (MIDWEST)",
+        alias: "PETER W (MIDWEST)",
         country: "USA",
       },
       {
-        Alias: "DONALD G (MIDWEST)",
+        alias: "DONALD G (MIDWEST)",
         country: "USA",
       },
       {
-        Alias: "JEREMY M (MIDWEST)",
+        alias: "JEREMY M (MIDWEST)",
         country: "USA",
       },
       {
-        Alias: "JIM C (MIDWEST)",
+        alias: "JIM C (MIDWEST)",
         country: "USA",
       },
       {
-        Alias: "LOVENRAZU",
+        alias: "LOVENRAZU",
         country: "USA",
       },
       {
-        Alias: "MONTHLYTETRIS2",
+        alias: "MONTHLYTETRIS2",
         country: "XXX",
       },
       {
-        Alias: "MUFFYIO",
+        alias: "MUFFYIO",
         country: "XXX",
       },
       {
-        Alias: "PICKLESPEARS",
+        alias: "PICKLESPEARS",
         country: "USA",
       },
       {
-        Alias: "CURIOSITY",
+        alias: "CURIOSITY",
         country: "USA",
       },
       {
-        Alias: "TETRISTIMER2000",
+        alias: "TETRISTIMER2000",
         country: "XXX",
       },
       {
-        Alias: "NTAM117",
+        alias: "NTAM117",
         country: "USA",
       },
       {
-        Alias: "MAJOONEZIK",
+        alias: "MAJOONEZIK",
         country: "POL",
       },
       {
-        Alias: "HAMADOSHI",
+        alias: "HAMADOSHI",
         country: "POL",
       },
       {
-        Alias: "KANTO",
+        alias: "KANTO",
         country: "FRA",
       },
       {
-        Alias: "BXNSHY",
+        alias: "BXNSHY",
         country: "USA",
       },
       {
-        Alias: "AJAX",
+        alias: "AJAX",
         country: "GER",
       },
       {
-        Alias: "BUBBLEG",
+        alias: "BUBBLEG",
         country: "CHE",
       },
       {
-        Alias: "C3DL",
+        alias: "C3DL",
         country: "GER",
       },
       {
-        Alias: "SHAUNANIGANS",
+        alias: "SHAUNANIGANS",
         country: "AUS",
       },
       {
-        Alias: "FRIEDER",
+        alias: "FRIEDER",
         country: "GER",
       },
       {
-        Alias: "WEISBROT",
+        alias: "WEISBROT",
         country: "GER",
       },
       {
-        Alias: "JANUARY",
+        alias: "JANUARY",
         country: "USA",
       },
       {
-        Alias: "TIGERCLONE",
+        alias: "TIGERCLONE",
         country: "USA",
       },
       {
-        Alias: "DEAN",
+        alias: "DEAN",
         country: "USA",
       },
       {
-        Alias: "BENNY",
+        alias: "BENNY",
         country: "USA",
       },
       {
-        Alias: "NINJA",
+        alias: "NINJA",
         country: "USA",
       },
       {
-        Alias: "DB_YGO",
+        alias: "DB_YGO",
         country: "XXX",
       },
       {
-        Alias: "RYAN AMBURGY",
+        alias: "RYAN AMBURGY",
         country: "USA",
       },
       {
-        Alias: "MARIOX",
+        alias: "MARIOX",
         country: "COL",
       },
       {
-        Alias: "ARATTOR",
+        alias: "ARATTOR",
         country: "POL",
       },
       {
-        Alias: "BINTURONG",
+        alias: "BINTURONG",
         country: "POL",
       },
       {
-        Alias: "PSYHO",
+        alias: "PSYHO",
         country: "POL",
       },
       {
-        Alias: "SJN",
+        alias: "SJN",
         country: "POL",
       },
       {
-        Alias: "XYNTHIC",
+        alias: "XYNTHIC",
         country: "USA",
       },
     ]);

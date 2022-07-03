@@ -53,9 +53,12 @@ export default function initMatchesModel(sequelize, DataTypes) {
           key: "id",
         },
       },
-      version: {
-        type: DataTypes.STRING(4),
-        allowNull: false,
+      versionId: {
+        type: DataTypes.INTEGER,
+        references: {
+          model: "Versions",
+          key: "id",
+        },
       },
       live: {
         type: DataTypes.BOOLEAN,
