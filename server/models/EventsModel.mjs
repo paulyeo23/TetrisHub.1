@@ -6,21 +6,21 @@ export default function initEventsModel(sequelize, DataTypes) {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: DataTypes.INTEGER,
-      },
-      permissionId: {
-        allowNull: false,
         unique: true,
         type: DataTypes.INTEGER,
+      },
+      editionId: {
+        type: DataTypes.INTEGER,
         references: {
-          model: "Permissions",
+          model: "Editions",
           key: "id",
         },
       },
-      versionId: {
+      permissionId: {
+        allowNull: false,
         type: DataTypes.INTEGER,
         references: {
-          model: "Versions",
+          model: "Permissions",
           key: "id",
         },
       },
@@ -51,7 +51,7 @@ export default function initEventsModel(sequelize, DataTypes) {
         defaultValue: false,
       },
       concluded: {
-        type: DataTypes.BOOLEAN,
+        type: Sequelize.BOOLEAN,
         allowNull: false,
         defaultValue: false,
       },
@@ -62,7 +62,6 @@ export default function initEventsModel(sequelize, DataTypes) {
       },
       playerCount: {
         type: DataTypes.INTEGER,
-        allowNull: false,
       },
       tournamentStructure: {
         type: DataTypes.STRING,
@@ -79,6 +78,13 @@ export default function initEventsModel(sequelize, DataTypes) {
       prizeOther: {
         type: DataTypes.STRING,
         allowNull: true,
+      },
+      versionId: {
+        type: DataTypes.INTEGER,
+        references: {
+          model: "Versions",
+          key: "id",
+        },
       },
     },
 

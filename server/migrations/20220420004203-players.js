@@ -363,7 +363,7 @@ module.exports = {
       editionId: {
         type: Sequelize.INTEGER,
         references: {
-          model: "Events",
+          model: "Editions",
           key: "id",
         },
       },

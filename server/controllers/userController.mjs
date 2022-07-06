@@ -1,39 +1,23 @@
 import { Info } from "../service/info.mjs";
+import { register, login } from "../service/userTable.mjs";
 
 export default function initUserController(db) {
-  const register = async (request, response) => {
-    console.log(request.params);
-    db.Users.findAll({
-      where: {
-        username: request.params.username,
-      },
-    }).then((result) => {
-      if (result.length > 0) {
-        response.send({ username: false, accepted: false });
-      } else {
-        db.Users.create({
-          username: request.params.username,
-          password: request.params.password,
-        });
-        response.send({ accepted: true });
-      }
+  const Register = async (request, response) => {
+    let message = {};
+    const username = request.body.user;
+    const password = request.body.password;
+    Info().then((info) => {
+      info.Users.filter((user) => {
+        return user.username == username;
+      }).length == 0
+        ? register(username, password).then((result) => {
+            response.send({ accepted: true });
+          })
+        : response.send({ accepted: false, reason: "Username is taken" });
     });
   };
 
-  const login = async (request, response) => {
-    db.Users.findAll({
-      where: {
-        username: request.params.username,
-        password: request.params.password,
-      },
-    }).then((result) => {
-      if (result.length > 0) {
-        response.send({ accepted: true });
-      } else {
-        response.send({ accepted: false });
-      }
-    });
-  };
+  const Login = async (request, response) => {};
 
   const index = async (request, response) => {
     try {

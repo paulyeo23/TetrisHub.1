@@ -1,0 +1,3 @@
+const QueryUserById = (id) => {
+    
+}

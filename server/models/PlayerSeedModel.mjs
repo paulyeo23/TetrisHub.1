@@ -6,6 +6,7 @@ export default function initPlayerSeedModel(sequelize, DataTypes) {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+        unique: true,
         type: DataTypes.INTEGER,
       },
 
@@ -17,15 +18,15 @@ export default function initPlayerSeedModel(sequelize, DataTypes) {
           key: "id",
         },
       },
-      seed: {
-        type: DataTypes.INTEGER,
-      },
       seederId: {
         type: DataTypes.INTEGER,
         references: {
           model: "Seeders",
           key: "id",
         },
+      },
+      seed: {
+        type: DataTypes.INTEGER,
       },
     },
     {
