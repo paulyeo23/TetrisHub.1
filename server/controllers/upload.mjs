@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import multer from "multer";
 import path from "path";
 import { Info } from "../service/info.mjs";
@@ -33,7 +33,7 @@ export default function initUploadsController(db) {
     upload,
   };
 }
-=======
+
 import multer from "multer";
 import path from "path";
 import { Info } from "../service/info.mjs";
@@ -68,4 +68,4 @@ export default function initUploadsController(db) {
     upload,
   };
 }
->>>>>>> d251a519147c0ccd9a5e691845043e3883ceda8b
+

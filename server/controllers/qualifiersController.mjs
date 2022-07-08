@@ -25,85 +25,22 @@ export default function initQualifersController(db) {
     const seeds = request.seeds;
     finaliseList(seederId);
     seeds.forEach((seed) => {
-      createSeed(seed.playerId, seed.seed, seederId);
+      seed.seedId == undefined
+        ? createSeed(seed.playerId, seed.seed, seederId)
+        : updateSeed(seed.seedId);
     });
     response.send({ accepted: true });
   };
 
-  const addPlayerToSeed = async (request, response) => {
-    const playerId = request.playerId;
-    const seederId = request.seederId;
-    const seed = request.seed;
-    response.send(createSeed(playerId, seed, seederId));
+  const generateSeed = async (request, response) => {
+    const seeds = request.seed;
+    seeds.forEach((seed) => {
+      seed.seedId == undefined
+        ? createSeed(seed.playerId, seed.seed, seederId)
+        : updateSeed(seed.seedId);
+    });
   };
 
-  const updatePlayerSeed = async (request, response) => {
-    const playerId = request.body.playerId;
-    const seedId = request.body.seedId;
-    updateSeed(playerId, seedId);
-  };
-
-  // const startEvent = async (request, response) => {
-  //   const params = request.params;
-  //   const eventId = params.eventId;
-
-  //   Info(db).then(async (info) => {
-  //     const event = info.Events.filter((event) => {
-  //       return event.id == eventId;
-  //     })[0];
-  //     const qualScores = info.QualifyingScores.filter((score) => {
-  //       return score.eventId == eventId;
-  //     });
-  //     const seedingMethod = SeedingMethod.filter((method) => {
-  //       return method.id == event.seedingMethod;
-  //     })[0].type;
-  //     const firstStageBracket = info.Brackets.filter((bracket) => {
-  //       return bracket.eventId == eventId;
-  //     })[0];
-  //     const finalList = finaliseList(
-  //       seedingMethod(qualScores),
-  //       firstStageBracket.size,
-  //     );
-  //     console.log(finalList);
-  //     const brackets = Object.keys(finalList.bracketMatches);
-  //     brackets.forEach(async (bracket) => {
-  //       await finalList.bracketMatches[bracket].forEach(
-  //         async (bracketMatch) => {
-  //           await db.BracketMatches.create({
-  //             bracketId: 1,
-  //             bracketMatchId: bracketMatch.id,
-  //             winnerTo: bracketMatch.winnerTo,
-  //             loserTo: bracketMatch.loserTo,
-  //           });
-  //         },
-  //       );
-  //     });
-  //     Info(db).then((info) => {
-  //       brackets.forEach(async (bracket) => {
-  //         await finalList.bracketMatches[bracket].forEach(
-  //           async (bracketMatch) => {
-  //             const round1MatchUp = finalList.matchUps.filter((match) => {
-  //               return match.bracketMatchId == bracketMatch.id;
-  //             })[0];
-  //             round1MatchUp != undefined
-  //               ? db.Matches.create({
-  //                   version: "NTSC",
-  //                   eventId: eventId,
-  //                   bracketMatchId: round1MatchUp.bracketMatchId,
-  //                   player1Id: round1MatchUp.player1,
-  //                   player2Id: round1MatchUp.player2,
-  //                 })
-  //               : db.Matches.create({
-  //                   version: "NTSC",
-  //                   eventId: eventId,
-  //                   bracketMatchId: bracketMatch.id,
-  //                 });
-  //           },
-  //         );
-  //       });
-  //     });
-  //   });
-  // };
 
   const index = async (request, response) => {
     try {
@@ -120,6 +57,6 @@ export default function initQualifersController(db) {
     reopenQualifer,
     startEvent,
     addPlayerToSeed,
-    updatePlayerSeed,
+    generateSeed,
   };
 }
